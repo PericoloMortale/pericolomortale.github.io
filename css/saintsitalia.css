@@ -220,6 +220,53 @@ h2 {
 #subscribe-box .btn-warning:hover {
   background-color: #f0ad4e
 }
+
+#posts-box ol {
+  list-style: none;
+  padding-left: 0px;
+}
+
+#posts-box h4 {
+    font-size: 16px;
+    text-transform: uppercase;
+    background-color: #efefef;
+    color: #555;
+    padding: 12px;
+    text-align: center;
+    font-weight: 600;
+    font-family: 'Open Sans';
+    letter-spacing: 2px;
+    margin: 0;
+}
+
+#posts-box ol {
+  margin-bottom: 0
+}
+
+#posts-box li {
+  font-size: 16px;
+  padding: 12px;
+  border-bottom: 3px solid #efefef;
+  min-height: 60px;
+  line-height: 20px;
+  text-align: center;
+}
+
+#posts-box li:last-child {
+  margin-bottom: -3px
+}
+
+#posts-box a {
+  color: #555;
+}
+
+#posts-box a:hover {
+  color: #555;
+  text-decoration: none;
+  font-weight: 500
+}
+
+
 .blog-sidebar {
   padding-left: 30px;
 }
@@ -228,7 +275,16 @@ h2 {
   padding: 15px;
   background-color: #f5f5f5;
   border-radius: 4px;
-  border: 4px dashed #2ecc71;
+  border: 4px dashed #e74c3c;
+}
+
+#posts-box {
+  padding: 0;
+  border: 3px solid #efefef;
+  border-top: 0;
+  border-radius: 3px;
+  margin-top: 30px;
+}
 
 /*
  * Footer
@@ -245,4 +301,12 @@ h2 {
   margin-bottom: 0;
 }
 
-/* generale pagina */
+/* pagina più piccola */
+@media (max-width: 991px) {
+  .blog-sidebar {
+    margin-right: 15px;
+  }
+
+  .pager {
+  margin-bottom: 40px;
+}
