@@ -9,18 +9,18 @@
     <meta name="author" content="">
     <link rel="icon" href="../../favicon.ico">
 
-    <title>Jumbotron Template for Bootstrap</title>
+    <title>SaintsItalia</title>
 
     <!-- Bootstrap core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
 
-    <!-- Font Google -->
-    <link href='http://fonts.googleapis.com/css?family=Orbitron:500,700,900,400' rel='stylesheet' type='text/css'>
-    <link href='http://fonts.googleapis.com/css?family=Dancing+Script:400,700' rel='stylesheet' type='text/css'>
-    <link href='http://fonts.googleapis.com/css?family=Lobster+Two:700,400' rel='stylesheet' type='text/css'>
+   <!-- Custom styles for this template -->
+    <link href="css/saintsitalia.css" rel="stylesheet">
 
-    <!-- Custom styles for this template -->
-    <link href="css/sitocurriculum.css" rel="stylesheet">
+    <!-- Stili Google -->
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900,100italic,300italic,400italic,700italic,900italic' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Roboto+Condensed:300italic,400italic,700italic,400,300,700' rel='stylesheet' type='text/css'>
 
     <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
     <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
@@ -35,71 +35,162 @@
 
   <body>
 
-    <nav class="navbar navbar-inverse navbar-fixed-top">
+    <!-- Static navbar -->
+    <nav class="navbar navbar-default navbar-static-top">
       <div class="container">
         <div class="navbar-header">
-          <button type="button" class="navbar-toggle collapsed" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
             <span class="sr-only">Toggle navigation</span>
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="" style="color: white">Marco Aguilar</a>
+          <a class="navbar-brand" href="#"><strong>Saints</strong>Italia</a>
         </div>
-        <div id="navbar" class="collapse navbar-collapse navbar-right">
-          <ul class="nav navbar-nav">
-            <li><a href="" style="color: white">Who<br>I Am</a></li>
-            <li><a href="" style="color: white">My<br>CV</a></li>
-            <li><a href="" style="color: white">Contact<br>Me</a></li>
+        <div id="navbar" class="navbar-collapse collapse">
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="">Home</a></li>
+            <li class="active"><a href="">Blog</a></li>
+            <li><a href="../navbar-fixed-top/">Fixed top</a></li>
+            <li><a href="../navbar-fixed-top/">Fourth</a></li>
           </ul>
         </div><!--/.nav-collapse -->
       </div>
     </nav>
 
-    <!-- Main jumbotron for a primary marketing message or call to action -->
-    <div class="jumbotron">
+    <div id="blog-page">
       <div class="container">
-        <h1>Buongiorno,<br>
-        My name is Marco, I was born on the 27th of february, 1989, in Milan, Italy.<br>
-        I currently live in Krimpen aan den Ijssel with my girlfriend Rebecca.</h1>
-        <h2><img src="immagini/milano_skyline.jpg"></h2>
-        <p><a class="btn btn-primary btn-lg" href="#" role="button">more about me &raquo;</a></p>
-      </div>
+
+        <div class="row">
+
+          <div class="col-sm-8 blog-main">
+
+            <div class="blog-post">
+              <h2 class="blog-post-title"><a href="blog-post-link">Sample blog post</a></h2>
+              <p class="blog-post-meta"><a type="button" class="btn btn-danger" href="blog-post-link#comments">55 commenti</a> January 1, 2014 by <a href="#">Mark</a></p>
+
+              <img src="immagini/saints-gold-light.jpg">
+
+              <p>This blog post shows a few different types of content that's supported and styled with Bootstrap. Basic typography, images, and code are all supported.</p>
+              <hr>
+              <p>Cum sociis natoque penatibus et magnis <a href="#">dis parturient montes</a>, nascetur ridiculus mus. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Sed posuere consectetur est at lobortis. Cras mattis consectetur purus sit amet fermentum.</p>
+              <blockquote>
+                <p>Curabitur blandit tempus porttitor. <strong>Nullam quis risus eget urna mollis</strong> ornare vel eu leo. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+              </blockquote>
+              <p>Etiam porta <em>sem malesuada magna</em> mollis euismod. Cras mattis consectetur purus sit amet fermentum. Aenean lacinia bibendum nulla sed consectetur.</p>
+              <h2>Heading</h2>
+              <p>Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros.</p>
+              <h3>Sub-heading</h3>
+              <p>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
+              <pre><code>Example code block</code></pre>
+              <p>Aenean lacinia bibendum nulla sed consectetur. Etiam porta sem malesuada magna mollis euismod. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa.</p>
+              <h3>Sub-heading</h3>
+              <p>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Aenean lacinia bibendum nulla sed consectetur. Etiam porta sem malesuada magna mollis euismod. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
+              <ul>
+                <li>Praesent commodo cursus magna, vel scelerisque nisl consectetur et.</li>
+                <li>Donec id elit non mi porta gravida at eget metus.</li>
+                <li>Nulla vitae elit libero, a pharetra augue.</li>
+              </ul>
+              <p>Donec ullamcorper nulla non metus auctor fringilla. Nulla vitae elit libero, a pharetra augue.</p>
+              <ol>
+                <li>Vestibulum id ligula porta felis euismod semper.</li>
+                <li>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</li>
+                <li>Maecenas sed diam eget risus varius blandit sit amet non magna.</li>
+              </ol>
+              <p>Cras mattis consectetur purus sit amet fermentum. Sed posuere consectetur est at lobortis...<a href="blog-post-link">Read More</a></p>
+            </div><!-- /.blog-post -->
+
+            <div class="blog-post">
+              <h2 class="blog-post-title">Another blog post</h2>
+              <p class="blog-post-meta">December 23, 2013 by <a href="#">Jacob</a></p>
+
+              <p>Cum sociis natoque penatibus et magnis <a href="#">dis parturient montes</a>, nascetur ridiculus mus. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Sed posuere consectetur est at lobortis. Cras mattis consectetur purus sit amet fermentum.</p>
+              <blockquote>
+                <p>Curabitur blandit tempus porttitor. <strong>Nullam quis risus eget urna mollis</strong> ornare vel eu leo. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+              </blockquote>
+              <p>Etiam porta <em>sem malesuada magna</em> mollis euismod. Cras mattis consectetur purus sit amet fermentum. Aenean lacinia bibendum nulla sed consectetur.</p>
+              <p>Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros.</p>
+            </div><!-- /.blog-post -->
+
+            <div class="blog-post">
+              <h2 class="blog-post-title">New feature</h2>
+              <p class="blog-post-meta">December 14, 2013 by <a href="#">Chris</a></p>
+
+              <p>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Aenean lacinia bibendum nulla sed consectetur. Etiam porta sem malesuada magna mollis euismod. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
+              <ul>
+                <li>Praesent commodo cursus magna, vel scelerisque nisl consectetur et.</li>
+                <li>Donec id elit non mi porta gravida at eget metus.</li>
+                <li>Nulla vitae elit libero, a pharetra augue.</li>
+              </ul>
+              <p>Etiam porta <em>sem malesuada magna</em> mollis euismod. Cras mattis consectetur purus sit amet fermentum. Aenean lacinia bibendum nulla sed consectetur.</p>
+              <p>Donec ullamcorper nulla non metus auctor fringilla. Nulla vitae elit libero, a pharetra augue.</p>
+            </div><!-- /.blog-post -->
+
+            <nav>
+              <ul class="pager">
+                <li><a href="#">Previous</a></li>
+                <li><a href="#">Next</a></li>
+              </ul>
+            </nav>
+
+          </div><!-- /.blog-main -->
+
+          <div class="col-sm-4 blog-sidebar">
+            <div id="subscribe-box" class="sidebar-module sidebar-module-inset">
+              <h4>Who Dat Newsletter</h4>
+              <p>Se non vuoi perderti nessun post, se vuoi leggere, commentare e farci sapere le tue opinioni iscriviti alla nostra newsletter. E stai tranquillo che non riceverai spam!</p>
+              <form>
+                <div class="form-group">
+                  <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Enter email">
+                </div>
+                <p style="text-align: center"><a type="submit" class="btn btn-warning">Iscriviti</a></p>
+              </form>
+            </div>
+            <div class="sidebar-module">
+              <h4>Archives</h4>
+              <ol class="list-unstyled">
+                <li><a href="#">March 2014</a></li>
+                <li><a href="#">February 2014</a></li>
+                <li><a href="#">January 2014</a></li>
+                <li><a href="#">December 2013</a></li>
+                <li><a href="#">November 2013</a></li>
+                <li><a href="#">October 2013</a></li>
+                <li><a href="#">September 2013</a></li>
+                <li><a href="#">August 2013</a></li>
+                <li><a href="#">July 2013</a></li>
+                <li><a href="#">June 2013</a></li>
+                <li><a href="#">May 2013</a></li>
+                <li><a href="#">April 2013</a></li>
+              </ol>
+            </div>
+            <div class="sidebar-module">
+              <h4>Elsewhere</h4>
+              <ol class="list-unstyled">
+                <li><a href="#">GitHub</a></li>
+                <li><a href="#">Twitter</a></li>
+                <li><a href="#">Facebook</a></li>
+              </ol>
+            </div>
+          </div><!-- /.blog-sidebar -->
+
+        </div><!-- /.row -->
+
+      </div><!-- /.container -->
     </div>
 
-    <div class="container">
-      <!-- Example row of columns -->
-      <div class="row">
-        <div class="col-md-4">
-          <h2>Heading</h2>
-          <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
-          <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
-        </div>
-        <div class="col-md-4">
-          <h2>Heading</h2>
-          <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
-          <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
-       </div>
-        <div class="col-md-4">
-          <h2>Heading</h2>
-          <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
-          <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
-        </div>
-      </div>
-
-      <hr>
-
-      <footer>
-        <p>&copy; Company 2014</p>
-      </footer>
-    </div> <!-- /container -->
+    <footer class="blog-footer">
+      <p>Blog template built for <a href="http://getbootstrap.com">Bootstrap</a> by <a href="https://twitter.com/mdo">@mdo</a>.</p>
+      <p>
+        <a href="#">Back to top</a>
+      </p>
+    </footer>
 
 
     <!-- Bootstrap core JavaScript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
-    <script src="../../dist/js/bootstrap.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
     <script src="../../assets/js/ie10-viewport-bug-workaround.js"></script>
   </body>
