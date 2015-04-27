@@ -48,14 +48,14 @@ html, body {
   background: white url(../immagini/nero.png) repeat;
   background-position: 50%;
   background-position-y: top;
-  background-size: 1367px;
+  background-size: 2242px;
 }
 
 #immagine-sfondo {
   background-image: url(../immagini/prova.png);
   background-position: 50%;
   background-position-y: top;
-  background-size: 1367px;
+  background-size: 2242px;
   background-repeat: no-repeat;
 }
 
