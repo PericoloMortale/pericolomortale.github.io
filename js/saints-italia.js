@@ -20,7 +20,6 @@ $(".navbar-header a[href^='#']").on('click', function(e) {
 
 });
 
-$(document).ready(function() {
   $(window).scroll(function () {
         //if you hard code, then use console
         //.log to determine when you want the 
@@ -61,5 +60,4 @@ $(document).ready(function() {
         $('#immagine-sfondo').removeClass('immagine-sfondo-b');
       }
     });
-  });
 
