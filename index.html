@@ -18,9 +18,7 @@
     <link href="css/saintsitalia.css" rel="stylesheet">
 
     <!-- Stili Google -->
-    <link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
-    <link href='https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900,100italic,300italic,400italic,700italic,900italic' rel='stylesheet' type='text/css'>
-    <link href='https://fonts.googleapis.com/css?family=Roboto+Condensed:300italic,400italic,700italic,400,300,700' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Orbitron:400,500,700,900' rel='stylesheet' type='text/css'>
     <link href='http://fonts.googleapis.com/css?family=Oswald:400,300' rel='stylesheet' type='text/css'>
 
     <!-- SumoMe -->
@@ -39,7 +37,7 @@
 
   <body>
 
-    <div class="color-top">
+    <div class="color-top" id="top">
       <div class="container">
         <div class="over-top">
           
@@ -49,21 +47,21 @@
     <!-- Static navbar -->
     <nav class="navbar navbar-default navbar-static-top" id="saints-italia">
       <div class="container">
-        <div class="navbar-header">
+        <div class="navbar-header" >
           <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
             <span class="sr-only">Toggle navigation</span>
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href=""><img src="immagini/logo-alto.png"></a>
+          <a class="navbar-brand" href="#top"><img src="immagini/logo-alto.png" alt="SaintsItalia.com" Tag"SaintsItalia"></a>
         </div>
         <div id="navbar" class="navbar-collapse collapse">
           <ul class="nav navbar-nav navbar-right">
             <li><a href="">Home</a></li>
-            <li class="active"><a href="">Blog</a></li>
-            <li><a href="../navbar-fixed-top/">Fixed top</a></li>
-            <li><a href="../navbar-fixed-top/">Fourth</a></li>
+            <li><a href="">Blog</a></li>
+            <li><a href="">Saints</a></li>
+            <li><a href="">Chi Siamo</a></li>
           </ul>
         </div><!--/.nav-collapse -->
       </div>
@@ -87,8 +85,7 @@
 
               <div class="blog-post">
                 <h2 class="blog-post-title"><a href="post/primo-post">Sample blog post</a></h2>
-                <p class="blog-post-meta"><a type="button" class="btn btn-danger" href="blog-post-link#comments">55 commenti</a> January 1, 2014 by <a href="#">Mark</a></p>
-
+ 
                 <img src="immagini/saints-gold-light.jpg">
 
                 <p>This blog post shows a few different types of content that's supported and styled with Bootstrap. Basic typography, images, and code are all supported.</p>
@@ -155,27 +152,17 @@
 
             </div><!-- /.blog-main -->
 
-            <div class="col-sm-4 blog-sidebar">
-              <div id="subscribe-box" class="sidebar-module sidebar-module-inset">
-                <h4>Who Dat Newsletter</h4>
-                <p>Se non vuoi perderti nessun post, se vuoi leggere, commentare e farci sapere le tue opinioni iscriviti alla nostra newsletter. E stai tranquillo che non riceverai spam!</p>
-                <form>
-                  <div class="form-group">
-                    <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Enter email">
+            <div class="col-sm-4 blog-sidebar ">
+              <div class="twitter-box">
+                <a class="twitter-timeline" href="https://twitter.com/SaintsItalia" data-widget-id="593335563228454912" data-chrome="noscrollbar" width="">Tweet di @SaintsItalia</a> <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+                  <div class="link-social"> 
+                    <ul>
+                      <li><a href="https://www.facebook.com/SaintsItalia" target="_blank"><img src="immagini/facebook.png"></a></li>
+                      <li><a href="https://twitter.com/SaintsItalia" target="_blank"><img src="immagini/twitter.png"></a></li>
+                    </ul>
                   </div>
-                  <p style="text-align: center"><a type="submit" class="btn btn-warning">Iscriviti</a></p>
-                </form>
-              </div>
-              <div  id="posts-box" class="sidebar-module">
-                <h4>Most Popular Posts</h4>
-                <ol>
-                  <li><a href="#">This is the most popular post</a></li>
-                  <li><a href="#">This is the second most popular post</a></li>
-                  <li><a href="#">This post was many people's favourites</a></li>
-                  <li><a href="#">This is just a longer title to make sure it goes to the second line</a></li>
-                </ol>
-              </div>
-             
+                </div>
+            
             </div><!-- /.blog-sidebar -->
 
           </div><!-- /.row -->
