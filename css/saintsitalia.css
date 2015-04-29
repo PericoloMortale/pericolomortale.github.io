@@ -65,11 +65,12 @@ html, body {
   background-color: #1a1a1a;
 }
 
-.over-top  {
+#top  {
   height: 150px;
   background-image: url(../immagini/copertina.png);
   background-size: auto 150px;
   background-repeat: no-repeat;
+  background-position: center;
 }
 
 
@@ -320,14 +321,14 @@ a.navbar-brand{
 .link-social ul li img {
   height: 70px;
   margin: 10px;
-  margin-top: 30px;
+  margin-top: 20px;
   text-align: center;
 }
 
 .link-social ul li img:hover {
   height: 90px;
   margin: 0px;
-  margin-top: 20px;
+  margin-top: 10px;
 }
 
 #posts-box ol {
@@ -403,6 +404,7 @@ a.navbar-brand{
 .blog-footer a {
   color: #b4a76c;
 }
+
 
 /* pagina più piccola */
 @media (max-width: 991px) {
