@@ -46,17 +46,18 @@ h2 {
 /* sfondo sito */
 html, body {
   background: white url(../immagini/nero.png) repeat;
-  background-position: 50%;
   background-position-y: top;
   background-size: 2242px;
+  background-position: center;
 }
 
 #immagine-sfondo {
   background-image: url(../immagini/prova.png);
-  background-position: 50%;
   background-position-y: top;
   background-size: 2242px;
   background-repeat: no-repeat;
+  background-position: top center;
+
 }
 
 /* color-top */
