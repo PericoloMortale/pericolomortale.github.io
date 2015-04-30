@@ -463,8 +463,6 @@ a.navbar-brand{
     visibility: hidden;
   }
 
-
-
   #blog-page {
     padding-top: 0
   }
@@ -480,6 +478,15 @@ a.navbar-brand{
 
 /* Small devices (tablets, 450px and down) */
 @media (max-width: 450px) {
+
+  #top  {
+  height: 150px;
+  background-image: url(../immagini/copertina-smallest.png);
+  background-size: auto 150px;
+  background-repeat: no-repeat;
+  background-position: center;
+  }
+
   .navbar-brand img {
     height: 45px;
     margin-top: 7px;
