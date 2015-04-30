@@ -426,8 +426,8 @@ a.navbar-brand{
 /* Small devices (tablets, 768px and down) */
 @media (max-width: 767px) {
   .navbar-brand img {
-    height: 55px;
-    margin-top: 3px;
+    height: 50px;
+    margin-top: 6px;
   }
 
   button.navbar-toggle.collapsed {
@@ -441,7 +441,7 @@ a.navbar-brand{
 
   .navbar-static-top-b .container>p#p1 {
     visibility: visible;
-    font-size: 14px;
+    font-size: 13px;
     letter-spacing: 0px;
   }
   
