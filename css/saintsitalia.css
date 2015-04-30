@@ -80,6 +80,11 @@ html, body {
 }
 
 /* Navbar */
+
+.navbar-header {
+  margin-bottom: 20px
+}
+
 .navbar-static-top {
   z-index: 10
 }
@@ -435,9 +440,30 @@ a.navbar-brand{
     border: solid 1px white;
   }
   
+  button.navbar-toggle {
+    margin: 30px 20px auto auto;
+  }
+
+  .navbar-default .navbar-collapse, .navbar-default .navbar-form {
+    border: none;
+    border-bottom: white solid 1px;
+  }
+
+  ul.navbar-nav {
+    margin: 0 -15px;
+  }
+  .nav.navbar-nav.navbar-right li a {
+    margin: 0;
+    padding: 5;
+    background-color: #1a1a1a
+  }
+
+
   .navbar-static-top-b {
     visibility: hidden;
   }
+
+
 
   #blog-page {
     padding-top: 0
