@@ -222,6 +222,7 @@ a.navbar-brand{
   font-size: 30px;
   font-weight: 800;
   text-align: none;
+  text-transform: uppercase;
 }
 
 .blog-post-title a{
@@ -298,6 +299,10 @@ a.continua {
   color: #b4a76c;
 }
 
+hr#linee-post {
+  width: 500px;
+  margin-bottom: 30px;
+}
 
 /* share post */
 
