@@ -27,11 +27,6 @@ h2 {
   color: #555;
 }
 
-@font-face {
-  font-family: 'Saints';
-  src: url(../fonts/solemn.ttf)
-}
-
 /*
  * Override Bootstrap's default container.
  */
@@ -330,6 +325,10 @@ hr#linee-post {
   margin-right: 0;
 }
 
+.twitter-timeline {
+  height: 450px;
+}
+
 .link-social ul {
   padding: 0;
   text-align: center;
@@ -340,16 +339,40 @@ hr#linee-post {
   display: inline;
 }
 .link-social ul li img {
-  height: 70px;
+  height: 40px;
   margin: 10px;
   margin-top: 20px;
   text-align: center;
 }
 
 .link-social ul li img:hover {
-  height: 90px;
+  height: 60px;
   margin: 0px;
   margin-top: 10px;
+}
+
+.elenco-post {
+  text-align: right;
+  line-height: 1
+}
+
+.elenco-post h1.post-precedenti {
+  margin-top: 30px;
+  font-family: 'Raleway', sans-serif;
+  font-size: 18px;
+  font-weight: 800
+}
+
+.elenco-post a {
+  font-family: 'Raleway', sans-serif;
+  font-size: 15px;
+  color: #b4a76c;
+  font-weight: 500;
+}
+
+.elenco-post a:hover {
+  color: #1a1a1a;
+  text-decoration: none;
 }
 
 /*
