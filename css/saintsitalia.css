@@ -297,11 +297,17 @@ p.autore-data a {
 
 a.continua {
   color: #b4a76c;
+  font-weight: 500;
 }
 
 hr#linee-post {
   width: 500px;
   margin-bottom: 30px;
+}
+
+#voto {
+  font-size: 22px;
+  font-weight: 500;
 }
 
 /* share post */

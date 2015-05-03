@@ -61,7 +61,7 @@ $(window).scroll(function () {
     }
   });
 
-/*
+
 $(window).scroll(function () {
       //if you hard code, then use console
       //.log to determine when you want the 
@@ -74,7 +74,7 @@ $(window).scroll(function () {
     if ($(window).scrollTop() < 149) {
       $('.twitter-box').removeClass('twitter-fixed');
     }
-  }); */
+  });
 
 
 
