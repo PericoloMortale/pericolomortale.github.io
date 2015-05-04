@@ -469,6 +469,14 @@ hr#linee-post {
     font-size: 18px
   }
 
+  .blog-post h2 {
+    font-size: 23px
+  }
+
+  .blog-post h3 {
+    font-size: 22px
+  }
+
   p#p1 {
     margin-bottom: 0
   }
@@ -523,6 +531,10 @@ hr#linee-post {
     padding-top: 0
   }
 
+  p#p3 {
+    font-size: 16px
+  }
+
   .twitter-box {
     display: none;
   }
@@ -532,6 +544,10 @@ hr#linee-post {
 
   .elenco-post-nascosto {
     display: inherit;
+  }
+
+  #voto {
+    font-size: 20px;
   }
 }
 
@@ -570,6 +586,15 @@ hr#linee-post {
   .immagine-sfondo-b {
     margin-top: 85px
   }
+
+  .blog-post-title a {
+    font-size: 18px;
+  }
+
+  .blog-post p {
+    font-size: 15px;
+  }
+
 
 
 
