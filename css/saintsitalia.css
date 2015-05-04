@@ -396,6 +396,10 @@ hr#linee-post {
   text-decoration: none;
 }
 
+.elenco-post-nascosto {
+  display: none;
+}
+
 /*
  * Footer
  */
@@ -457,6 +461,27 @@ hr#linee-post {
     margin-left: 7px
   }
 
+  .blog-post-title {
+    font-size: 25px;
+  }
+
+  .blog-post p {
+    font-size: 18px
+  }
+
+  p#p1 {
+    margin-bottom: 0
+  }
+
+  .elenco-post a {
+    font-size: 13px;
+    line-height: 1
+  }
+
+  .blog-footer {
+    font-size: 14px;
+  }
+
 }
 
 /* Small devices (tablets, 768px and down) */
@@ -505,6 +530,9 @@ hr#linee-post {
     display: none;
   }
 
+  .elenco-post-nascosto {
+    display: inherit;
+  }
 }
 
 /* Small devices (tablets, 450px and down) */
