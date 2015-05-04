@@ -477,6 +477,10 @@ hr#linee-post {
     font-size: 22px
   }
 
+  hr#linee-post {
+    width: 400px
+  }
+
   p#p1 {
     margin-bottom: 0
   }
@@ -516,15 +520,15 @@ hr#linee-post {
   ul.navbar-nav {
     margin: 0 -15px;
   }
+
   .nav.navbar-nav.navbar-right li a {
     margin: 0;
     padding: 5;
     background-color: #1a1a1a
   }
 
-
   .navbar-static-top-b {
-    visibility: hidden;
+    display: none;
   }
 
   #blog-page {
@@ -538,6 +542,7 @@ hr#linee-post {
   .twitter-box {
     display: none;
   }
+
   .twitter-fixed {
     display: none;
   }
@@ -548,6 +553,10 @@ hr#linee-post {
 
   #voto {
     font-size: 20px;
+  }
+
+  hr#linee-post {
+    width: 300px
   }
 }
 
@@ -594,8 +603,6 @@ hr#linee-post {
   .blog-post p {
     font-size: 15px;
   }
-
-
 
 
 }
