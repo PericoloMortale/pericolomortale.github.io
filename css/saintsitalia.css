@@ -231,11 +231,20 @@ a.navbar-brand{
 p.autore-data {
   font-size: 18px;
   text-align: left;
-  margin-bottom: 20px
+  margin-bottom: 20px;
+  margin-left: 10px;
 }
 
 p.autore-data a {
   color: #b4a76c
+}
+
+p.autore-data-commenti {
+  float: left;
+}
+
+.btn-default {
+  text-align: right;
 }
 
 .blog-post-meta {
