@@ -244,7 +244,17 @@ p.autore-data-commenti {
 }
 
 .btn-default {
-  text-align: right;
+  color: #1a1a1a;
+  background-color: #b4a76c;
+  font-weight: 700;
+  padding: 2px 4px 2px 4px;
+}
+
+.btn-default:hover, .btn-default:active {
+  color: #b4a76c;
+  background-color: #1a1a1a;
+  font-weight: 700;
+  padding: 2px 4px 2px 4px;
 }
 
 .blog-post-meta {
