@@ -195,12 +195,16 @@ a.navbar-brand{
 .pager {
   margin-bottom: 60px;
   text-align: left;
+  text-align: center;
 }
 .pager > li > a {
-  width: 140px;
-  padding: 10px 20px;
+  width: 130px;
+  padding: 10px 15px ;
   text-align: center;
-  border-radius: 30px;
+  border-radius: 10px;
+  color: #1a1a1a;
+  background-color: #b4a76c;
+  font-weight: 500
 }
 
 
@@ -252,7 +256,7 @@ p.autore-data-commenti {
 
 .btn-default:hover, .btn-default:active {
   color: #b4a76c;
-  background-color: #1a1a1a;
+  background-color: #eee;
   font-weight: 700;
   padding: 2px 4px 2px 4px;
 }
@@ -284,7 +288,7 @@ p.autore-data-commenti {
 .blog-post p {
   font-family: 'Raleway', sans-serif;
   font-weight: 400;
-  font-size: 20px;
+  font-size: 16px;
 }
 
 .blog-post h2 {
@@ -485,7 +489,7 @@ hr#linee-post {
   }
 
   .blog-post p {
-    font-size: 18px
+    font-size: 16px
   }
 
   .blog-post h2 {

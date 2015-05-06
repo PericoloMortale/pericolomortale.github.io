@@ -1,0 +1,26 @@
+/*
+ * Pillole
+ */
+
+.blog-page {
+	font-family: 'Raleway';
+}
+
+.raw {
+	text-align: center;
+}
+
+.pillola {
+	font-size: 25px;
+	font-weight: 500;
+	margin-top: 10px
+}
+
+.fa-circle {
+	color: #b4a76c;
+
+}
+
+.col-md-3 {
+	
+}
