@@ -644,9 +644,15 @@ p.seguici {
     font-size: 18px;
   }
 
-  .blog-post p#p3 {
-    font-size: 14px;
+  .blog-post p {
+    font-size: 15.5px;
   }
+
+  p.autore-data  {
+  font-size: 15.5px;
+  text-align: left;
+  margin-top: 3px
+}
 
 
 }
