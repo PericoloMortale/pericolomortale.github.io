@@ -650,9 +650,20 @@ p.seguici {
 
   p.autore-data  {
   font-size: 15px;
-  text-align: left;
-  margin-top: 3px
 }
 
+a.autore-data-commenti {
+  margin-right: 2px
+}
+
+p.autore-data a.btn-default {
+  font-weight: 400;
+  padding: 1px 2px 1px 2px;
+}
+
+p.autore-data a.btn-default:hover, p.autore-data a.btn-default:active {
+  color: #1a1a1a;
+  font-weight: 400;
+  padding: 1px 2px 1px 2px;
 
 }
