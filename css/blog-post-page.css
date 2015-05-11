@@ -39,6 +39,10 @@
   line-height: 1.5
 }
 
+p.autore-data.autore-data-commenti  {
+  font-size: 20px;
+}
+
 
 .blog-post img {
   max-width: 100%;
@@ -249,8 +253,8 @@ margin-bottom: 20px
     margin-left: 7px
   }
 
-  .blog-post-title {
-    font-size: 25px;
+  .blog-post-title a {
+    font-size: 29.5px;
   }
 
   .blog-post p {
@@ -323,6 +327,10 @@ margin-bottom: 20px
     padding-top: 0
   }
 
+  .blog-post-title a {
+  font-size: 26.5px;
+  }
+
   p#p3 {
     font-size: 16px
   }
@@ -393,7 +401,12 @@ margin-bottom: 20px
   }
 
   .blog-post-title a {
-    font-size: 18px;
+    font-size: 23px;
+  }
+
+
+  p.autore-data.autore-data-commenti {
+    font-size: 18px
   }
 
 }
