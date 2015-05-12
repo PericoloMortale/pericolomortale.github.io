@@ -58,6 +58,14 @@ h3 {
 }
 
 
+.offset:before { 
+	display: block; 
+ 	content: " "; 
+  	height: 120px;      /* Give height of your fixed element */
+        margin-top: -120px; /* Give negative margin of your fixed element */  	
+        visibility: hidden; 
+}
+
 /* pagina più piccola */
 @media (max-width: 991px) {
 
@@ -120,5 +128,13 @@ h3 {
 		padding: 0 30px 0 30px;
 		margin-bottom: 15px;
 	}
+
+	.offset:before { 
+	display: block; 
+ 	content: " "; 
+  	height: 100px;      /* Give height of your fixed element */
+        margin-top: -100px; /* Give negative margin of your fixed element */  	
+        visibility: hidden; 
+}
 
 }

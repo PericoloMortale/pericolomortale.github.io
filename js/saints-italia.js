@@ -1,5 +1,6 @@
 
 
+
 $(".navbar-header a[href^='#']").on('click', function(e) {
 
 	 // prevent default anchor click behavior
