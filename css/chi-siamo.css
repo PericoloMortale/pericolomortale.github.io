@@ -7,9 +7,6 @@
 	margin-bottom: 50px;
 }
 
-div.chi-siamo {
-}
-
 .chi-siamo h1 {
 	font-family: 'Raleway';
 	font-weight: 600;
@@ -35,7 +32,10 @@ p.descrizione {
 
 h2 {
 	font-weight: 600;
-	color: #1a1a1a
+	color: #1a1a1a;
+	font-size: 21px;
+	font-family: 'Raleway';
+	line-height: 1.2em
 }
 
 .segui img {
@@ -47,9 +47,78 @@ h2 {
 	padding: 0px;
 }
 
-h3 {
-	margin-top: 80px;
-	font-size: 40px;
-	font-weight: 700;
+.segui-anche {
+	margin-bottom: 
 }
 
+h3 {
+	margin-top: 0px;
+	font-size: 30px;
+	font-weight: 600;
+}
+
+
+/* pagina più piccola */
+@media (max-width: 991px) {
+
+	.chi-siamo h1 {
+		font-weight: 600;
+		font-size: 35px;
+		margin-bottom: 20px
+	}
+
+	p.descrizione {
+		font-size: 18px;
+		padding: 0 60px 0 60px;
+		margin-bottom: 15px;
+	}
+
+	h3 {
+		font-size: 27px;
+	}
+
+}
+
+
+/* Small devices (tablets, 768px and down) */
+@media (max-width: 767px) {
+
+	p.descrizione {
+		font-size: 16px;
+		padding: 0 50px 0 50px;
+		margin-bottom: 15px;
+	}
+
+	.segui img {
+		height: 65px;
+		padding: 5px;
+	}
+
+	h2 {
+		font-weight: 600;
+		color: #1a1a1a;
+		font-size: 19px;
+		margin-top: 0
+	}
+
+	h3 {
+		font-size: 22px;
+	}
+
+
+}
+
+/* Small devices (tablets, 450px and down) */
+@media (max-width: 450px) {
+	.chi-siamo h1 {
+		font-size: 30px;
+		margin-bottom: 15px
+	}
+
+	p.descrizione {
+		font-size: 16px;
+		padding: 0 30px 0 30px;
+		margin-bottom: 15px;
+	}
+
+}
