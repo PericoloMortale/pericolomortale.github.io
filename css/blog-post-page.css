@@ -12,6 +12,7 @@
   font-weight: 800;
   text-align: none;
   text-transform: uppercase;
+  text-align: left;
 }
 
 .blog-post-title a{
@@ -335,7 +336,7 @@ margin-bottom: 20px
   }
 
   .immagine-sfondo-b {
-    margin-top: 85px
+    margin-top: 0px
   }
 
 
