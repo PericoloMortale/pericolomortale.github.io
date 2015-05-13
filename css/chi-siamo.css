@@ -113,6 +113,14 @@ h3 {
 		font-size: 22px;
 	}
 
+	.offset:before { 
+	display: block; 
+ 	content: " "; 
+  	height: 20px;      /* Give height of your fixed element */
+        margin-top: -20px; /* Give negative margin of your fixed element */  	
+        visibility: hidden; 
+}
+
 
 }
 
