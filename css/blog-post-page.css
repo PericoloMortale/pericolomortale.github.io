@@ -102,68 +102,6 @@ hr#linee-post {
 
 
 
-/* Sidebar */
-
-.twitter-box {
-  float: right;
-  width: 300px;
-  margin-right: -7px;
-}
-
-.twitter-fixed {
-  position: fixed;
-  top: 159px;
-  float: right;
-  width: 300px;
-  margin-right: 0;
-}
-
-.twitter-timeline {
-  height: 450px;
-}
-
-.elenco-post {
-  text-align: center;
-  line-height: 1
-}
-
-.elenco-post h1.post-precedenti {
-  margin-top: 30px;
-  font-family: 'Raleway', sans-serif;
-  font-size: 18px;
-  font-weight: 800;
-  color: #1a1a1a;
-  border-bottom: 1px #eee solid;
-  padding-bottom: 10px
-}
-
-.elenco-post ul {
-  padding: 0
-}
-
-.elenco-post ul li {
-  list-style-type: none;
-  margin-top: 12px;
-  padding-bottom: 10px;
-  border-bottom: 1px #eee solid;
-  line-height:1.5;
-}
-
-.elenco-post a {
-  font-family: 'Raleway', sans-serif;
-  font-size: 15px;
-  color: #b4a76c;
-  font-weight: 500;
-}
-
-.elenco-post a:hover {
-  color: #1a1a1a;
-  text-decoration: none;
-}
-
-.elenco-post-nascosto {
-  display: none;
-}
 
 /*
  * Condividere
