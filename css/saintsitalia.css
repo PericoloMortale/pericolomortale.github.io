@@ -420,9 +420,9 @@ p.seguici {
 
 .elenco-post a {
   font-family: 'Raleway', sans-serif;
-  font-size: 15px;
+  font-size: 18px;
   color: #b4a76c;
-  font-weight: 500;
+  font-weight: 600;
 }
 
 .elenco-post a:hover {
@@ -521,8 +521,7 @@ p.seguici {
   }
 
   .elenco-post a {
-    font-size: 13px;
-    line-height: 1
+    font-size: 16px;
   }
 
   .blog-footer {
