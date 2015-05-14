@@ -111,7 +111,7 @@ a.navbar-brand{
   border-left: solid #b4a76c 1px;
 }
 
-.navbar-default .navbar-nav>li:first-child a{
+.navbar-default .navbar-nav>li:first-child a {
   border-left: none;
 }
 
@@ -555,7 +555,13 @@ p.seguici {
     text-align: center;
     font-family: 'Orbitron';
     font-size: 30px;
-    margin-bottom: 10px;
+    padding-bottom: 15px;
+    padding-top: 25px;
+    border-bottom: solid #b4a76c 1px
+  }
+
+  .navbar-default .navbar-nav>li:last-child a {
+    border-bottom: none;
   }
 
   ul.navbar-nav {
