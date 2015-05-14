@@ -178,7 +178,6 @@ a.navbar-brand{
   margin-top: 0px
 }
 
-
 /*
  * Main column and sidebar layout
  */
@@ -551,6 +550,14 @@ p.seguici {
     border-bottom: white solid 1px;
   }
 
+  .navbar-default .navbar-nav>li>a {
+    border-left: none;
+    text-align: center;
+    font-family: 'Orbitron';
+    font-size: 30px;
+    margin-bottom: 10px;
+  }
+
   ul.navbar-nav {
     margin: 0 -15px;
   }
@@ -572,6 +579,42 @@ p.seguici {
   .navbar-static-top-b {
     display: none;
   }
+
+  /*
+  * NAVBAR COMPRESSA
+  */
+
+  .navbar-header {
+    margin-bottom: 12px
+  }
+
+  .navbar-default .navbar-toggle .icon-bar {
+    background-color: #b4a76c;
+  }
+
+  button.navbar-toggle.collapsed {
+    border: solid 2px #b4a76c;
+  }
+
+  .navbar-toggle span.icon-bar {
+    height: 4px;
+  }
+
+  .navbar-default .navbar-toggle:hover {
+    background-color: #eee;
+  }
+
+  .navbar-default .navbar-toggle:focus {
+    background-color: white;
+  }
+
+  .navbar-default .navbar-toggle {
+    border: 2px solid #1a1a1a
+  }
+
+  /*
+  * FINE NAVBAR COMPRESSA
+  */
 
   #blog-page {
     padding-top: 0
@@ -668,5 +711,41 @@ p.seguici {
     font-weight: 400;
     padding: 1px 2px 1px 2px;
   }
+
+    /*
+  * NAVBAR COMPRESSA
+  */
+
+  .navbar-header {
+    margin-bottom: 12px
+  }
+
+  .navbar-default .navbar-toggle .icon-bar {
+    background-color: #b4a76c;
+  }
+
+  button.navbar-toggle.collapsed {
+    border: solid 2px #b4a76c;
+  }
+
+  .navbar-toggle span.icon-bar {
+    height: 4px;
+  }
+
+  .navbar-default .navbar-toggle:hover {
+    background-color: #eee;
+  }
+
+  .navbar-default .navbar-toggle:focus {
+    background-color: white;
+  }
+
+  .navbar-default .navbar-toggle {
+    border: 2px solid #1a1a1a
+  }
+
+  /*
+  * FINE NAVBAR COMPRESSA
+  */
 
 }
