@@ -147,14 +147,18 @@ margin-bottom: 20px
   margin-bottom: 0;
 }
 
+.container {
+  position: relative;
+}
+
 .blog-footer a {
   color: #b4a76c;
 }
 
 #back-to-top {
-  position: fixed;
-  right: 40px;
-  bottom: 55px;
+  position: absolute;
+  right: 0px;
+  bottom: 0px
 }
 
 .back-to-top-alto {

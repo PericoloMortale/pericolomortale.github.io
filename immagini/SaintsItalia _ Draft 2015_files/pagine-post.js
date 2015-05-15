@@ -30,7 +30,7 @@ $("#back-to-top a[href^='#']").on('click', function(e) {
    // animate
    $('html, body').animate({
        scrollTop: $(hash).offset().top -100
-     }, 900, function(){
+     }, 700, function(){
 
        // when done, add hash to url
        // (default click behaviour)
@@ -70,15 +70,15 @@ $(window).scroll(function () {
     }
   });
 
-/*
+
     // REGOLARE PULSANTE DI TORNA IN ALTO
     $(window).scroll(function () {
 
           console.log($(window).scrollTop())
-        if ($(window).scrollTop() > 150) {
+        if ($(window).scrollTop() > 101) {
           $('#back-to-top').removeClass('back-to-top-alto');
         }
-        if ($(window).scrollTop() < 150) {
+        if ($(window).scrollTop() < 100) {
           $('#back-to-top').addClass('back-to-top-alto');
         }
         
