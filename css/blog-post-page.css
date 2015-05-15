@@ -136,7 +136,7 @@ margin-bottom: 20px
  */
 
 .blog-footer {
-  padding: 20px 0;
+  padding: 15px 0;
   color: white;
   text-align: center;
   background-color: #1a1a1a;
@@ -151,6 +151,31 @@ margin-bottom: 20px
   color: #b4a76c;
 }
 
+#back-to-top {
+  position: fixed;
+  right: 40px;
+  bottom: 55px;
+}
+
+.back-to-top-alto {
+  display: none;
+}
+
+#back-to-top p {
+  color: #333;
+  font-family: 'Raleway';
+  font-weight: 900;
+  float: left;
+  display: block;
+  margin-bottom: 0px;
+  padding: 11px 5px 10px 5px;
+}
+
+#back-to-top i {
+  color: #333;
+  float: left;
+  display: block;
+}
 
 /* pagina più piccola */
 @media (max-width: 991px) {
@@ -262,6 +287,42 @@ margin-bottom: 20px
     display: none;
   }
 
+  /*
+  * NAVBAR COMPRESSA
+  */
+
+  .navbar-header {
+    margin-bottom: 12px
+  }
+
+  .navbar-default .navbar-toggle .icon-bar {
+    background-color: #b4a76c;
+  }
+
+  button.navbar-toggle.collapsed {
+    border: solid 2px #b4a76c;
+  }
+
+  .navbar-toggle span.icon-bar {
+    height: 4px;
+  }
+
+  .navbar-default .navbar-toggle:hover {
+    background-color: #eee;
+  }
+
+  .navbar-default .navbar-toggle:focus {
+    background-color: white;
+  }
+
+  .navbar-default .navbar-toggle {
+    border: 2px solid #1a1a1a
+  }
+
+  /*
+  * FINE NAVBAR COMPRESSA
+  */
+
   #blog-page {
     padding-top: 0
   }
@@ -301,6 +362,11 @@ margin-bottom: 20px
   #share-buttons {
     text-align: center;
   }
+
+  #back-to-top {
+    display: none;
+  }
+
 }
 
 /* Small devices (tablets, 450px and down) */
@@ -343,5 +409,41 @@ margin-bottom: 20px
   p.autore-data.autore-data-commenti {
     font-size: 18px
   }
+
+  /*
+  * NAVBAR COMPRESSA
+  */
+
+  .navbar-header {
+    margin-bottom: 12px
+  }
+
+  .navbar-default .navbar-toggle .icon-bar {
+    background-color: #b4a76c;
+  }
+
+  button.navbar-toggle.collapsed {
+    border: solid 2px #b4a76c;
+  }
+
+  .navbar-toggle span.icon-bar {
+    height: 4px;
+  }
+
+  .navbar-default .navbar-toggle:hover {
+    background-color: #eee;
+  }
+
+  .navbar-default .navbar-toggle:focus {
+    background-color: white;
+  }
+
+  .navbar-default .navbar-toggle {
+    border: 2px solid #1a1a1a
+  }
+
+  /*
+  * FINE NAVBAR COMPRESSA
+  */
 
 }
