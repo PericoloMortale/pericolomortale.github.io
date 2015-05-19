@@ -708,10 +708,6 @@ p.seguici {
     font-size: 15.5px;
   }
 
-  p.autore-data  {
-  font-size: 15px;
-  }
-
   a.autore-data-commenti {
     margin-right: 5px
   }
@@ -767,7 +763,7 @@ p.seguici {
 @media (max-width: 350px) {
 
   .navbar-brand img {
-    height: 38px;
-    margin-top: 20px;
+    height: 43px;
+    margin-top: 15px;
   }
 }
