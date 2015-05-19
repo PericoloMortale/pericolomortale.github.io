@@ -2,18 +2,21 @@
 	text-align: center;
 }
 
-.calendario-titolo img {
-	height: 100px;
-	margin-bottom: 0;
-	vertical-align: middle;
-	margin-bottom: 2em;
-	margin-right: 10px
-}
 
-.calendario-titolo h1 {
+h1.calendario {
+	font-size: 38px;
+	color: #b4a76c;
 	text-align: center;
 	font-weight: 700;
-	display: inline;
+	margin-top: 25px
+}
+
+h2.preseason {
+	margin-top: 40px;
+	color: #1a1a1a;
+	font-size: 34px;
+	font-weight: 700;
+	margin-bottom: 30px
 }
 
 .row {
@@ -69,3 +72,10 @@ div.border {
 .col-md-3 div.border:hover img {
 	padding: 0;
 }
+
+/* ombra sfumata */
+.effect1:hover {
+	-webkit-box-shadow: 0 10px 6px -6px #777;
+	   -moz-box-shadow: 0 10px 6px -6px #777;
+	        box-shadow: 0 10px 6px -6px #777;
+} /* fine ombra sfumata */
