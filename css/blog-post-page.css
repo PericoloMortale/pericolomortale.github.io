@@ -451,3 +451,13 @@ margin-bottom: 20px
   */
 
 }
+
+
+/* schermi piccolissimi (iphone4) */
+@media (max-width: 350px) {
+
+  .navbar-brand img {
+    height: 40px;
+    margin-top: 15px;
+  }
+}
