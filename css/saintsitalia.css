@@ -2,10 +2,16 @@
  * Globals
  */
 
+html {
+  position: relative;
+  min-height: 100%;
+}
+
 body {
   font-family:'Raleway', "Helvetica Neue", Helvetica, Arial, sans-serif;
   color: #1a1a1a;
   font-weight: 300;
+  margin-bottom: 62px;
 }
 
 h1, .h1,
@@ -51,7 +57,7 @@ html, body {
   background-size: 2242px;
   background-repeat: no-repeat;
   background-position: top center;
-
+  
 }
 
 /* color-top */
@@ -445,6 +451,9 @@ p.seguici {
   background-color: #1a1a1a;
   border-top: 1px solid white;
   font-size: 16px;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
 }
 .blog-footer p:last-child {
   margin-bottom: 0;
@@ -667,7 +676,7 @@ p.seguici {
   }
 
   .navbar-brand img {
-    height: 45px;
+    max-height: 45px;
     margin-top: 7px;
   }
 
