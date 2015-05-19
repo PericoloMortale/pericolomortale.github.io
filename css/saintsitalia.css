@@ -676,8 +676,8 @@ p.seguici {
   }
 
   .navbar-brand img {
-    max-height: 45px;
-    margin-top: 7px;
+    height: 40px;
+    margin-top: 15px;
   }
 
   button.navbar-toggle.collapsed {
