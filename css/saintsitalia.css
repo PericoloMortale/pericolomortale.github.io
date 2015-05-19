@@ -676,8 +676,8 @@ p.seguici {
   }
 
   .navbar-brand img {
-    height: 40px;
-    margin-top: 15px;
+    height: 45px;
+    margin-top: 10px;
   }
 
   button.navbar-toggle.collapsed {
@@ -763,4 +763,13 @@ p.seguici {
   * FINE NAVBAR COMPRESSA
   */
 
+}
+
+/* schermi piccolissimi (iphone4) */
+@media (max-width: 350px) {
+
+  .navbar-brand img {
+    height: 30px;
+    margin-top: 20px;
+  }
 }
