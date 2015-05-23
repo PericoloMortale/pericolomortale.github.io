@@ -65,6 +65,7 @@
         <div id="navbar" class="navbar-collapse collapse">
           <ul class="nav navbar-nav navbar-right">
             <li><a href="../index.html">Home</a></li>
+            <li><a href="../gameday/gameday.html">Gameday</a></li>
             <li><a href="../post/chi-siamo.html">Chi Siamo</a></li>
           </ul>
         </div><!--/.nav-collapse -->
@@ -90,15 +91,17 @@
 
           <div class="row">
             <div class="col-md-3 col-xs-6">
-              <div class="border effect1">
-                <h2>Saints<br>@</h2>
-                <h1>Ravens</h1>
-                <img src="../immagini/loghi/ravens.png">
-                <p>Venerdì 14 Agosto<br>01:30 del mattino</p>
-              </div>
+              <a href="../gameday/gameday.html">
+                <div class="border effect1 next-game" id="ravens">
+                  <h2>Saints<br>@</h2>
+                  <h1>Ravens</h1>
+                  <img src="../immagini/loghi/ravens.png">
+                  <p>Venerdì 14 Agosto<br>01:30 del mattino</p>
+                </div>
+              </a>
             </div>
             <div class="col-md-3 col-xs-6">
-              <div class="border effect1">
+              <div class="border effect1" id="patriots">
                 <h2>Saints<br>vs.</h2>
                 <h1>Patriots</h1>
                 <img src="../immagini/loghi/patriots.png">
@@ -129,7 +132,7 @@
             <div class="col-md-3 col-xs-6">
               <div class="border effect1">
                 <h2>Saints<br>@</h2>
-                <h1 style="font-size: 30px">Cardinals</h1>
+                <h1 id="cardinals">Cardinals</h1>
                 <img src="../immagini/loghi/cardinals.png">
                 <p>Domenica 13 Settembre<br>22:05</p>
               </div>
@@ -137,7 +140,7 @@
             <div class="col-md-3 col-xs-6">
               <div class="border effect1">
                 <h2>Saints<br>vs.</h2>
-                <h1 style="font-size: 25px">Buccaneers</h1>
+                <h1 id="buccaneers">Buccaneers</h1>
                 <img src="../immagini/loghi/buccaneers.png">
                 <p>Domenica 20 Settembre<br>19:00</p>
               </div>
@@ -145,7 +148,7 @@
             <div class="col-md-3 col-xs-6">
               <div class="border effect1">
                 <h2>Saints<br>@</h2>
-                <h1 style="font-size: 32px">Panthers</h1>
+                <h1 id="panthers">Panthers</h1>
                 <img src="../immagini/loghi/panthers.png">
                 <p>Domenica 27 Settembre<br>19:00</p>
               </div>
@@ -153,7 +156,7 @@
             <div class="col-md-3 col-xs-6">
               <div class="border effect1">
                 <h2>Saints<br>vs.</h2>
-                <h1 style="font-size: 33px">Cowboys</h1>
+                <h1 id="cowboys">Cowboys</h1>
                 <img src="../immagini/loghi/cowboys.png">
                 <p>Lunedì 5 Ottobre<br>02:30 del mattino</p>
               </div>
@@ -202,14 +205,14 @@
             <div class="col-md-3 col-xs-6">
               <div class="border effect1">
                 <h2>Saints<br>@</h2>
-                <h1 style="font-size: 34px">Redskins</h1>
+                <h1 id="redskins">Redskins</h1>
                 <img src="../immagini/loghi/redskins.png">
                 <p>Domenica 15 Novembre<br>19:00</p>
               </div>
             </div>
             <div class="col-md-3 col-xs-6">
               <div class="border effect1">
-                <h1 style="margin-top: 70px">BYE WEEK</h1>
+                <h1 id="bye-week">BYE WEEK</h1>
               </div>
             </div>
             <div class="col-md-3 col-xs-6">
@@ -223,7 +226,7 @@
             <div class="col-md-3 col-xs-6">
               <div class="border effect1">
                 <h2>Saints<br>vs.</h2>
-                <h1 style="font-size: 32px">Panthers</h1>
+                <h1 id="panthers">Panthers</h1>
                 <img src="../immagini/loghi/panthers.png">
                 <p>Domenica 6 Dicembre<br>19:00</p>
               </div>
@@ -231,7 +234,7 @@
             <div class="col-md-3 col-xs-6">
               <div class="border effect1">
                 <h2>Saints<br>@</h2>
-                <h1 style="font-size: 25px">Buccaneers</h1>
+                <h1 id="buccaneers">Buccaneers</h1>
                 <img src="../immagini/loghi/buccaneers.png">
                 <p>Domenica 13 Dicembre<br>19:00</p>
               </div>
@@ -262,7 +265,7 @@
             </div>
           </div>
 
-          <h2 class="season" style="margin-bottom: 70px">Playoffs?</h2>
+          <h2 class="season" id="playoffs">Playoffs?</h2>
 
           
 
