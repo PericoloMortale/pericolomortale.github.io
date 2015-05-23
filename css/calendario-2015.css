@@ -275,3 +275,40 @@ div.border {
 		}/*  Fine SPECIALI */
 
 }
+
+/* Small devices (tablets, 450px and down) */
+@media (max-width: 450px) {
+
+	div.col-md-3.col-xs-6:nth-child(2n+2) {
+		padding-right: 10px;
+		padding-left: 5px;
+	}
+
+	div.col-md-3.col-xs-6:nth-child(2n+1) {
+		padding-left: 10px;
+		padding-right: 5px;
+	}
+
+	h1.calendario {
+		font-size: 25px
+	}
+
+	img.nfl-logo {
+		height: 70px;
+		margin-top: 0
+	}
+
+	h2.season {
+		margin-top: 10px;
+		font-size: 23px;
+	}
+
+
+
+
+
+
+
+
+
+}
