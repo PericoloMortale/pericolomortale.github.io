@@ -4,6 +4,7 @@
 
 
 h1.calendario {
+	font-family: 'Orbitron';
 	font-size: 38px;
 	color: #1a1a1a;
 	text-align: center;
@@ -17,10 +18,11 @@ img.nfl-logo {
 }
 
 h2.season {
-	margin-top: 20px;
+	font-family: 'Orbitron';
+	margin-top: 40px;
 	color: #1a1a1a;
 	font-size: 34px;
-	font-weight: 700;
+	font-weight: 500;
 	margin-bottom: 0px;
 	
 }
