@@ -181,6 +181,17 @@ margin-bottom: 20px
   display: block;
 }
 
+.pager > li > a {
+  min-width: 130px;
+  padding: 10px 15px ;
+  text-align: center;
+  border-radius: 10px;
+  color: #1a1a1a;
+  background-color: #b4a76c;
+  font-weight: 800;
+  font-size: 16px
+}
+
 /* pagina più piccola */
 @media (max-width: 991px) {
 
@@ -370,6 +381,17 @@ margin-bottom: 20px
   #back-to-top {
     display: none;
   }
+
+  .pager > li > a {
+  min-width: 130px;
+  padding: 5px 10px ;
+  text-align: center;
+  border-radius: 10px;
+  color: #1a1a1a;
+  background-color: #b4a76c;
+  font-weight: 800;
+  font-size: 14px
+}
 
 }
 
