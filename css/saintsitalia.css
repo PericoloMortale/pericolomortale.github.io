@@ -393,7 +393,12 @@ p.seguici {
 }
 
 .link-social ul li img:hover {
-  padding: 1px
+  padding: 1px;
+  webkit-box-shadow: 0 10px 6px -6px #777;
+  -moz-box-shadow: 0 10px 6px -6px #777;
+  box-shadow: 0 10px 6px -6px #777;
+  border-radius: 53px;
+
 }
 
 .elenco-post {
@@ -461,6 +466,54 @@ p.seguici {
 
 .blog-footer a {
   color: #b4a76c;
+}
+
+.prossima-partita {
+  text-align: center;
+  margin: 25px 25px 0px 25px;
+}
+
+div.prossima-partita {
+  padding: 2px;
+  border: solid 2px #b4a76c;
+  height: 185px;
+  background-color: #eee;
+  border-radius: 20px
+}
+
+.prossima-partita p {
+  font-size: 18px;
+  font-weight: 700
+}
+.prossima-partita h5 {
+  margin-top: 10px;
+  font-family: 'Raleway', sans-serif;
+  font-size: 18px;
+  font-weight: 800;
+  color: #1a1a1a;
+  text-align: center;
+  margin-bottom: 0;
+  text-transform: uppercase;
+}
+
+.prossima-partita img {
+  height: 80px;
+  margin-top: 5px;
+    padding: 5px
+}
+
+.prossima-partita:hover  img {
+  padding: 0
+}
+
+div.prossima-partita:hover {
+  border: solid 4px #b4a76c;
+  padding: 0px;
+  background-color: white;
+  /* ombra sfumata */
+  -webkit-box-shadow: 0 10px 6px -6px #777;
+     -moz-box-shadow: 0 10px 6px -6px #777;
+          box-shadow: 0 10px 6px -6px #777;
 }
 
 
