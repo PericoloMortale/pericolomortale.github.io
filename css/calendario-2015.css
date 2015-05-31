@@ -44,7 +44,7 @@ div.border {
 	padding: 20px;
 	border: solid 2px #1a1a1a;
 	height: 285px;
-	background-color: #bbb;
+	background-color: #ddd;
 	border-radius: 20px
 }
 
@@ -78,7 +78,7 @@ div.border {
 }
 
 .col-md-3 div.border:hover{
-	background-color: #ddd;
+	background-color: #eee;
 	border: solid 5px #1a1a1a;
 	padding: 17px;
 }
@@ -126,12 +126,14 @@ div.border {
 /* SPECIALI */
 	#ravens img {
 		height: 75px;
-		margin-top: 5px;
+		margin-top: 3px;
+		margin-bottom: 2px;
 	}
 
 	#patriots img {
 		height: 70px;
-		margin-top: 5px
+		margin-top: 3px;
+		margin-bottom: 2px
 	}
 
 	#patriots p {
@@ -235,15 +237,16 @@ div.border {
 
 	/* SPECIALI */
 		#ravens img {
-			height: 50px;
-			margin-top: 5px;
+			height: 75px;
+			margin-top: 3px;
+			margin-bottom: 2px;
 		}
 
 		#patriots img {
-			height: 50px;
-			margin-top: 5px
+			height: 70px;
+			margin-top: 3px;
+			margin-bottom: 2px
 		}
-
 		#patriots p {
 			margin-top: 5px;
 		}
@@ -304,6 +307,54 @@ div.border {
 		margin-top: 10px;
 		font-size: 23px;
 	}
+
+	.border h1 {
+		font-size: 25px;
+	}
+
+	/* SPECIALI */
+		#ravens img {
+			height: 50px;
+			margin-top: 0px;
+		}
+
+		#patriots img {
+			height: 50px;
+			margin-top: 0px
+		}
+
+		#patriots p {
+			margin-top: 0px;
+		}
+
+		h1#cardinals {
+		 font-size: 23px;
+		}
+
+		h1#buccaneers {
+			font-size: 20px;
+		}
+
+		h1#panthers {
+			font-size: 24px;
+		}
+
+		h1#cowboys {
+			font-size: 24px;
+		}
+
+		h1#redskins {
+			font-size: 26px;
+		}
+
+		h1#bye-week {
+			margin-top: 60px
+		}
+
+		h2#playoffs {
+			margin-bottom: 50px;
+		}/*  Fine SPECIALI */
+
 
 
 
