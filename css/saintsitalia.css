@@ -591,6 +591,10 @@ div.prossima-partita:hover {
     font-size: 14px;
   }
 
+  .prossima-partita {
+    margin: 25px 0 0 0;
+  }
+
 }
 
 /* Small devices (tablets, 768px and down) */
@@ -717,6 +721,7 @@ div.prossima-partita:hover {
   ul.pager {
     margin-bottom: 35px
   }
+
 }
 
 /* Small devices (tablets, 450px and down) */
