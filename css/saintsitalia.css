@@ -388,12 +388,12 @@ p.seguici {
   display: inline;
 }
 .link-social ul li img {
-  height: 70px;
+  height: 80px;
   padding: 10px;
 }
 
 .link-social ul li img:hover {
-  padding: 1px;
+  padding: 0px;
   webkit-box-shadow: 0 10px 6px -6px #777;
   -moz-box-shadow: 0 10px 6px -6px #777;
   box-shadow: 0 10px 6px -6px #777;
@@ -412,9 +412,11 @@ p.seguici {
   font-size: 18px;
   font-weight: 800;
   color: #1a1a1a;
-  border-bottom: 1px #eee solid;
-  padding-bottom: 10px
+  padding-bottom: 0px;
+  margin-bottom: 0
 }
+
+
 
 .elenco-post ul {
   padding: 0

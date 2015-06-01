@@ -1,0 +1,47 @@
+.foto-rb {
+	text-align: center;
+}
+
+.immagine-post {
+	display: inline;
+}
+
+.immagine-post img {
+	max-height: 200px;
+	margin-bottom: 10px
+}
+
+.blog-post h3 {
+	margin-top: 0;
+	font-size: 25px
+}
+
+table {
+	width: 100%;
+	text-align: center;
+	padding-right: 30px
+}
+
+th {
+	text-align: center;
+}
+
+td {
+	border-left: solid 1px #ccc;
+	border-bottom: solid 1px #ccc;
+	text-align: center;
+	padding: 2px 2px 2px 2px;
+}
+
+#colonne th, td#tentativi {
+	border-left: solid 3px #bbb;
+}
+
+#righe {
+	border-bottom: solid 1px #ccc;
+}
+
+#header td{
+	font-weight: 500;
+	color: #b4a76c
+}

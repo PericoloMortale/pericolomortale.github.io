@@ -117,6 +117,7 @@ p.condividi {
 
 #share-buttons {
   text-align: right;
+  margin-bottom: 50px;
 }
 #share-buttons img {
 width: 70px;
@@ -376,6 +377,7 @@ margin-bottom: 20px
 
   #share-buttons {
     text-align: center;
+    margin-bottom: 20px
   }
 
   #back-to-top {
