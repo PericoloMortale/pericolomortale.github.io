@@ -1,0 +1,14 @@
+.titolari {
+	text-align: center;
+}
+
+.titolari h3 {
+	font-size: 25px
+}
+.titolari p {
+	font-size: 17px;
+}
+
+.titolari .col-md-6 {
+	margin-bottom: 40px
+}
