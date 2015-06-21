@@ -1,0 +1,27 @@
+.row {
+	text-align: center;
+}
+
+.colonne-rbs {
+	display: inline;
+}
+
+.colonne-rbs img {
+	margin-bottom: 0
+}
+
+.statistiche {
+	border: 2px solid #b4a76c;
+	padding: 10px;
+	margin-top: 10px;
+}
+
+.colonne-rbs h2 {
+	margin-top: 0
+}
+
+.colonne-rbs p {
+	text-transform: uppercase;
+	margin-bottom: 0;
+	font-size: 20px
+}
