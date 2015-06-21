@@ -11,8 +11,8 @@
 
 
 body {
-  	padding-top: 300px; /* same as header height */
-  	font-family: 'Boton';
+  padding-top: 300px; /* same as header height */
+  font-family: 'Boton';
 	font-size: 20px;
 }
 
@@ -25,6 +25,7 @@ header {
 	z-index: 100
 }
 
+/* NAVBAR GRANDE */
 .navbar-grande div.container {
 	height: 250px
 }
@@ -72,11 +73,15 @@ img.scrivici {
   top: -250px; /* same as header height. use variables in LESS/SASS */
 }
 
-
+/* NAVBAR PICCOLA */
 .navbar-piccola .navbar-fixed-top {
 	position: relative;
 	background-color: white;
 	border-bottom: none;
+}
+
+.navbar-piccola .navbar {
+	margin-bottom: 0
 }
 
 .nav.navbar-nav {
@@ -108,7 +113,7 @@ img.scrivici {
 	width: 100%;
 	font-size: 22px;
 	padding-top: 0px;
-  	padding-bottom: 0px;
+  padding-bottom: 0px;
 }
 
 .navbar-nav>li>.dropdown-menu hr {
@@ -120,7 +125,7 @@ img.scrivici {
 	text-align: center;
 	width: 100%;
 	padding-top: 10px;
-  	padding-bottom: 10px;
+  padding-bottom: 10px;
 }
 
 .navbar-nav>li>.dropdown-menu li a {
@@ -142,14 +147,24 @@ img.scrivici {
 	background-color: #9d9d9d
 }
 
+.bordo-navbar {
+	border-bottom: 1px solid #D84272
+}
+
+/* CAROUSEL */
 .slide-uno, .slide-due, .slide-tre {
 	height: 500px;
-
 }
 
 .slide-uno {
 	background: url(../immagini/mappamondo.jpg) no-repeat center;
 	background-size: cover;
+}
+
+.slide-due {
+	background: url(../immagini/grafica.jpg) no-repeat center;
+	background-size: cover;
+
 }
 
 .carousel h1 {
@@ -163,11 +178,22 @@ img.scrivici {
 .carousel p {
 	text-align: right;
 	text-shadow: 0pt 0pt 5px black, 0pt 0pt 10px black, 0pt 0pt 15px black, 0pt 0pt 20px black, 0pt 0pt 35px black, 0pt 0pt 40px black, 0pt 0pt 50px black, 0pt 0pt 75px black;
+	margin-bottom: 0
 }
 
+.sinistra-destra {
+	position: absolute;
+	margin-left: -15px;
+	top: 46%;
+  z-index: 5;
+  display: inline-block;
+  color: white;
+  text-shadow: 0pt 0pt 5px black, 0pt 0pt 10px black, 0pt 0pt 15px black, 0pt 0pt 20px black, 0pt 0pt 35px black, 0pt 0pt 40px black, 0pt 0pt 50px black, 0pt 0pt 75px black;
+}
 
-
-
-
+.cartografia-button img {
+	height: 80px;
+  margin-right: -15px;
+}
 
 

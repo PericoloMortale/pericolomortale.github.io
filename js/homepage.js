@@ -37,6 +37,15 @@ function hasScrolled() {
     lastScrollTop = st;
 }
 
-$('.dropdown-toggle').dropdownHover(options);
-
-$('.carousel').carousel();
+$(window).scroll(function () {
+      //if you hard code, then use console
+      //.log to determine when you want the 
+      //nav bar to stick.  
+      console.log($(window).scrollTop())
+    if ($(window).scrollTop() > 250) {
+      $('#bordino').addClass('bordo-navbar');
+    }
+    if ($(window).scrollTop() < 249 ) {
+      $('#bordino').removeClass('bordo-navbar');
+    }
+  });
