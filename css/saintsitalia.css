@@ -419,7 +419,7 @@ p.autore-data a.btn-default:hover, p.autore-data a.btn-default:active {
 .continua {
   color: #b4a76c;
   text-transform: uppercase;
-  text-align: center;
+  text-align: right;
   margin-top: 10px;
   letter-spacing: 2px;
   font-weight: 500;
@@ -428,6 +428,27 @@ p.autore-data a.btn-default:hover, p.autore-data a.btn-default:active {
 a.continua:hover {
   color: #b4a76c;
 }
+
+.col-sm-6 {
+  text-align: left;
+}
+
+.commenti {
+  color: #b4a76c;
+  text-transform: uppercase;
+  text-align: right;
+  margin-top: 10px;
+  letter-spacing: 2px;
+  font-weight: 500;
+  padding: 0;
+  border: none;
+  font-size: 16px
+}
+
+.commenti a:hover {
+  color: #b4a76c;
+}
+
 
 hr#linee-post {
   width: 500px;
