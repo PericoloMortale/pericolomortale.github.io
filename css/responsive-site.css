@@ -96,9 +96,6 @@
 		height: 100px;
 	}
 
-	.row:hover img {
-		height: 100px;
-	}
 
 	.logo-cambio-colore {
 		height: 100px;
@@ -109,9 +106,15 @@
 	.icone i.fa-3x {
 		font-size: 2em
 	}
+
+	#bordino {
+		border-bottom: 1px solid #D84272;
+		z-index: 2;
+		position: relative;
+	}
 }
 
-/* Extra small devices (tablets, 768px and down) */
+/* Extra small devices (tablets, 547px and down) */
 @media (max-width: 547px) {
 
 	div.contattaci {
@@ -130,8 +133,6 @@
 	.logo-cambio-colore {
 		margin-top: 280px
 	}
-
-
 
 
 
@@ -166,10 +167,6 @@
 	}
 
 	.colonna-sinistra img {
-		height: 80px;
-	}
-
-	.row:hover img {
 		height: 80px;
 	}
 

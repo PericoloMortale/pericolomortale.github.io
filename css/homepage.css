@@ -379,7 +379,21 @@ footer {
 	float: right;
 }
 
+/* Small devices (tablets, 768px and down) */
+@media (max-width: 767px) {
 
+	.row:hover .colonna-sinistra img {
+		height: 80px;
+	}
+}
+
+/* Super extra small devices (tablets, 450px and down) */
+@media (max-width: 450px) {
+
+	.row:hover .colonna-sinistra img {
+		height: 80px;
+	}
+}
 
 
 
