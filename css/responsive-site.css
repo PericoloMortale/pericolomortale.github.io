@@ -39,7 +39,7 @@
 	}
 }
 
-/* Small devices (tablets, 768px and up) */
+/* Small devices (tablets, 768px and down) */
 @media (max-width: 767px) {
 
 	body {
@@ -61,7 +61,6 @@
 	div.contattaci {
 		margin-top: 175px;
 	}
-
 
 	img.contattaci-bottone {
 		height: 60px
@@ -112,12 +111,20 @@
 	}
 }
 
-/* Extra small devices (tablets, 768px and up) */
+/* Extra small devices (tablets, 768px and down) */
 @media (max-width: 547px) {
+
+	div.contattaci {
+		margin-top: 160px;
+	}
+
+	img.contattaci-bottone {
+		height: 80px
+	}
 
 	.nav.navbar-nav li {
 		font-size:16px;
-		padding: 10px 2% 13px 2%;
+		padding: 10px 2% 14px 2%;
 	}
 
 	.logo-cambio-colore {
@@ -127,5 +134,53 @@
 
 
 
+
+}
+
+/* Super extra small devices (tablets, 450px and down) */
+@media (max-width: 450px) {
+
+	.navbar-grande .navbar-brand img {
+		padding: 80px 20px 20px 20px;
+	}
+
+	div.contattaci {
+		margin-top: 185px;
+	}
+
+	img.contattaci-bottone {
+		height: 50px
+	}
+
+	.nav.navbar-nav li {
+		font-size: 15px;
+		padding: 10px 1% 14px 1%;
+	}
+
+	.cartografia-button img {
+		height: 60px;
+	}
+
+	.row .colonna-destra p {
+		font-size: 14px
+	}
+
+	.colonna-sinistra img {
+		height: 80px;
+	}
+
+	.row:hover img {
+		height: 80px;
+	}
+
+	.logo-cambio-colore {
+		height: 80px;
+		background-size: 80px;
+		margin-top: 270px
+	}
+
+	.footer p {
+		font-size: 12px;
+	}
 
 }
