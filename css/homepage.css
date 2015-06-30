@@ -18,12 +18,14 @@ body {
   	padding-top: 300px; /* same as header height */
   	font-family: 'Boton';
 	font-size: 20px;
+	position: relative;
+
 }
 
 header {
 	position: fixed;
 	width: 100%;
-	height: 250px;
+	height: 300px;
 	top: 0;
 	transition: top 0.5s ease-in-out;
 	z-index: 100
@@ -124,6 +126,10 @@ img.scrivici {
 	border-bottom: solid 1px #D84272;
 }
 
+.bordo-navbar {
+	border-bottom: 1px solid #D84272
+}
+
 /* CAROUSEL */
 .slide-uno, .slide-due, .slide-tre {
 	height: 500px;
@@ -186,7 +192,7 @@ div.row {
 	margin-top: 0;
 	color: #333;
 	-webkit-transition: color 0.3s linear 0.3s;
-  transition: color 0.3s linear 0.3s;
+	transition: color 0.3s linear 0.3s;
 }
 
 .row:hover .colonna-destra h1 {
@@ -244,12 +250,12 @@ div.linea-divisoria {
 
 }
 
-/* FOOTER */
+/* ICONE */
 .icone {
 	text-align: center;
 }
 
-.icone .col-md-3 {
+.icone .col-xs-3 {
 	width: 25%
 }
 
