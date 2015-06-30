@@ -1,0 +1,131 @@
+/* Large devices (large desktops, 1200px and up) */
+@media (max-width: 1199px) {
+
+	.ombra-testo {
+	text-shadow: 0pt 0pt 5px #333, 0pt 0pt 10px #333, 0pt 0pt 15px #333, 0pt 0pt 20px #333, 0pt 0pt 25px #333, 0pt 0pt 30px #333
+	}
+
+	.row .colonna-destra p {
+		font-size: 18px
+	}
+
+}
+
+/* Medium devices (desktops, 992px and down) */
+@media (max-width: 991px) {
+
+	.carousel h1 {
+		font-size: 40px
+	}
+
+	.carousel p {
+		font-size: 16px
+	}
+
+	.row .colonna-destra p {
+		font-size: 15px
+	}
+
+	.cartografia-button img {
+		height: 75px
+	}
+
+	.sfondo-grigio h1 {
+		font-size: 22px;
+	}
+
+	.sfondo-grigio p {
+		font-size: 15px;
+	}
+}
+
+/* Small devices (tablets, 768px and up) */
+@media (max-width: 767px) {
+
+	body {
+		padding-top: 0
+	}
+
+	header {
+		position: static;
+	}
+
+	.nav-up { /* vedi js */
+	  top: 0px; /* same as header height. use variables in LESS/SASS */
+	}
+
+	img.scrivici {
+		display: none;
+	}
+
+	div.contattaci {
+		margin-top: 175px;
+	}
+
+
+	img.contattaci-bottone {
+		height: 60px
+	}
+
+	ul.nav.navbar-nav {
+		margin-right: 0;
+		margin-left: 0;
+	}
+
+	.nav.navbar-nav li {
+		width: 25%;
+		display: inline;
+		font-size:18px;
+		padding: 10px 5% 13px 5%;
+	}
+
+	.nav.navbar-nav>li>a {
+		display: inline;
+		padding-left: 0;
+		padding-right: 0
+	}
+
+	.row .colonna-destra h1 {
+		font-size: 20px
+	}
+
+	.row .colonna-destra p {
+		font-size: 15px
+	}
+
+	.colonna-sinistra img {
+		height: 100px;
+	}
+
+	.row:hover img {
+		height: 100px;
+	}
+
+	.logo-cambio-colore {
+		height: 100px;
+		background-size: 100px;
+		margin-top: 170px
+	}
+
+	.icone i.fa-3x {
+		font-size: 2em
+	}
+}
+
+/* Extra small devices (tablets, 768px and up) */
+@media (max-width: 547px) {
+
+	.nav.navbar-nav li {
+		font-size:16px;
+		padding: 10px 2% 13px 2%;
+	}
+
+	.logo-cambio-colore {
+		margin-top: 280px
+	}
+
+
+
+
+
+}
