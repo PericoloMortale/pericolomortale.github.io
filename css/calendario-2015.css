@@ -1,0 +1,372 @@
+.container {
+	text-align: center;
+}
+
+
+h1.calendario {
+	font-family: 'Orbitron';
+	font-size: 38px;
+	color: #1a1a1a;
+	text-align: center;
+	font-weight: 700;
+	margin-top: 25px;
+	text-transform: uppercase;
+}
+
+img.nfl-logo {
+	height: 150px
+}
+
+h2.season {
+	font-family: 'Orbitron';
+	margin-top: 40px;
+	color: #1a1a1a;
+	font-size: 34px;
+	font-weight: 500;
+	margin-bottom: 0px;
+	
+}
+
+.row {
+	margin-bottom: 50px
+}
+
+.col-xs-6 {
+	margin-top: 20px
+}
+
+.col-md-3 {
+	text-align: center;
+	
+}
+
+div.border {
+	padding: 20px;
+	border: solid 2px #1a1a1a;
+	height: 285px;
+	background-color: #ddd;
+	border-radius: 20px
+}
+
+.border h2 {
+	margin-top: 0px;
+	font-family: 'Orbitron';
+	margin-bottom: 0px;
+	color: #1a1a1a;
+	font-weight: 500
+}
+
+.border h1 {
+	margin-bottom: 0px;
+	margin-top: 0px;
+	font-size: 35px;
+	font-weight: 700;
+	text-transform: uppercase;
+	min-height: 38px;
+}
+
+.border p {
+	font-size: 20px;
+	font-weight: 400;
+	line-height: 1.2
+}
+
+.border img {
+	height: 80px;
+	padding: 10px;
+	margin-bottom: 2px;
+}
+
+.col-md-3 div.border:hover{
+	background-color: #eee;
+	border: solid 5px #1a1a1a;
+	padding: 17px;
+}
+
+.col-md-3 div.border:hover img {
+	padding: 0;
+}
+
+/* ombra sfumata */
+.effect1:hover {
+	-webkit-box-shadow: 0 10px 6px -6px #777;
+	   -moz-box-shadow: 0 10px 6px -6px #777;
+	        box-shadow: 0 10px 6px -6px #777;
+} /* fine ombra sfumata */
+
+/* NEXT-GAME */
+
+.col-md-3 a {
+	color: #1a1a1a;
+	text-decoration: none;
+}
+
+.col-md-3 div.next-game {
+	background-color: #fff;
+	border: solid 5px #b4a76c;
+	padding: 17px
+
+}
+
+.col-md-3 div.next-game:hover{
+	background-color: #b4a76c;
+	border: solid 5px #b4a76c;
+	padding: 17px;
+
+}
+
+.col-md-3 div.won {
+	background-color: #008000
+}
+
+.col-md-3 div.lost {
+	background-color: #b30000
+} /* FINE NEXT-GAME */
+
+/* SPECIALI */
+	#ravens img {
+		height: 75px;
+		margin-top: 3px;
+		margin-bottom: 2px;
+	}
+
+	#patriots img {
+		height: 70px;
+		margin-top: 3px;
+		margin-bottom: 2px
+	}
+
+	#patriots p {
+		margin-top: 5px;
+	}
+
+	h1#cardinals {
+		 font-size: 30px;
+	}
+
+	h1#buccaneers {
+		font-size: 25px;
+	}
+
+	h1#panthers {
+		font-size: 32px;
+	}
+
+	h1#cowboys {
+		font-size: 33px;
+	}
+
+	h1#redskins {
+		font-size: 34px;
+	}
+
+	h1#bye-week {
+		margin-top: 70px
+	}
+
+	h2#playoffs {
+		margin-bottom: 70px;
+	}/*  Fine SPECIALI */
+
+
+/* pagina più piccola */
+@media (max-width: 991px) {
+
+	div.col-md-3.col-xs-6:nth-child(2n+2) {
+		padding-right: 125px
+	}
+
+	div.col-md-3.col-xs-6:nth-child(2n+1) {
+		padding-left: 125px
+	}
+
+}
+
+/* Small devices (tablets, 768px and down) */
+@media (max-width: 767px) {
+
+	div.border {
+		height: 240px;
+	}
+
+	div.col-md-3.col-xs-6:nth-child(2n+2) {
+		padding-right: 50px;
+		padding-left: 5px;
+	}
+
+	div.col-md-3.col-xs-6:nth-child(2n+1) {
+		padding-left: 50px;
+		padding-right: 5px;
+	}
+
+	div.border {
+		height: 230px;
+	}
+
+	h1.calendario {
+		font-size: 34px;
+	}
+
+	img.nfl-logo {
+		height: 100px;
+	}
+
+	h2.season {
+		margin-top: 10px;
+		font-size: 30px;
+	}
+
+	.col-xs-6 {
+		margin-top: 10px;
+	}
+
+	.border h2 {
+		font-size: 15px;
+	}
+
+	.border h1 {
+		font-size: 28px;
+	}
+
+	.border p {
+		font-size: 15px;
+		font-weight: 600;
+	}
+
+	.border img {
+		height: 60px;
+		padding: 0;
+		margin-bottom: 5px;
+		margin-top: -5px;
+	}
+
+	/* SPECIALI */
+		#ravens img {
+			height: 75px;
+			margin-top: 3px;
+			margin-bottom: 2px;
+		}
+
+		#patriots img {
+			height: 70px;
+			margin-top: 3px;
+			margin-bottom: 2px
+		}
+		#patriots p {
+			margin-top: 5px;
+		}
+
+		h1#cardinals {
+		 font-size: 23px;
+		}
+
+		h1#buccaneers {
+			font-size: 20px;
+		}
+
+		h1#panthers {
+			font-size: 24px;
+		}
+
+		h1#cowboys {
+			font-size: 24px;
+		}
+
+		h1#redskins {
+			font-size: 26px;
+		}
+
+		h1#bye-week {
+			margin-top: 60px
+		}
+
+		h2#playoffs {
+			margin-bottom: 50px;
+		}/*  Fine SPECIALI */
+
+}
+
+/* Small devices (tablets, 450px and down) */
+@media (max-width: 450px) {
+
+	div.col-md-3.col-xs-6:nth-child(2n+2) {
+		padding-right: 10px;
+		padding-left: 5px;
+	}
+
+	div.col-md-3.col-xs-6:nth-child(2n+1) {
+		padding-left: 10px;
+		padding-right: 5px;
+	}
+
+	h1.calendario {
+		font-size: 25px
+	}
+
+	img.nfl-logo {
+		height: 70px;
+		margin-top: 0
+	}
+
+	h2.season {
+		margin-top: 10px;
+		font-size: 23px;
+	}
+
+	.border h1 {
+		font-size: 25px;
+	}
+
+	/* SPECIALI */
+		#ravens img {
+			height: 50px;
+			margin-top: 0px;
+		}
+
+		#patriots img {
+			height: 50px;
+			margin-top: 0px
+		}
+
+		#patriots p {
+			margin-top: 0px;
+		}
+
+		h1#cardinals {
+		 font-size: 20px;
+		}
+
+		h1#buccaneers {
+			font-size: 18px;
+		}
+
+		h1#panthers {
+			font-size: 22px;
+		}
+
+		h1#cowboys {
+			font-size: 22px;
+		}
+
+		h1#redskins {
+			font-size: 24px;
+		}
+
+		h1#bye-week {
+			margin-top: 60px
+		}
+
+		h2#playoffs {
+			margin-bottom: 50px;
+		}/*  Fine SPECIALI */
+
+
+
+
+
+
+
+
+
+
+}
