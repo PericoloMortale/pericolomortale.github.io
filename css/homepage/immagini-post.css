@@ -1,0 +1,228 @@
+/* 7 */
+div.immagine-post-7 {
+	width: 100%;
+	height: 200px;
+	background: url(../../immagini/post/galette-allo-spiedo/galette-infortunio-cut.jpg) no-repeat;
+	background-size: cover;
+	background-position: center;
+	-webkit-filter: grayscale(0.5);
+	-webkit-transition: all 0.2s linear 0.1s;
+    transition: all 0.2s linear 0.1s;
+    opacity: 0.8;
+}
+
+.blog-post:hover div.immagine-post-7 {
+	-webkit-filter: grayscale(0);
+	opacity: 1
+}
+
+/* 6 */
+div.immagine-post-6 {
+	width: 100%;
+	height: 200px;
+	background: url(../../immagini/post/cameron-jordan/cameron-jordan-tackle-cut.jpg) no-repeat;
+	background-size: cover;
+	background-position: center;
+	-webkit-filter: grayscale(0.5);
+	-webkit-transition: all 0.2s linear 0.1s;
+    transition: all 0.2s linear 0.1s;
+    opacity: 0.85
+}
+
+.blog-post:hover div.immagine-post-6 {
+	-webkit-filter: grayscale(0);
+	opacity: 1
+}
+
+/* 5 */
+div.immagine-post-5 {
+	width: 100%;
+	height: 200px;
+	background: url(../../immagini/post/projected-starters-2015/saints-huddle.jpg) no-repeat;
+	background-size: cover;
+	background-position: center;
+	-webkit-filter: grayscale(0.5);
+	-webkit-transition: all 0.2s linear 0.1s;
+    transition: all 0.2s linear 0.1s;
+    opacity: 0.85
+}
+
+.blog-post:hover div.immagine-post-5 {
+	-webkit-filter: grayscale(0);
+	opacity: 1
+}
+
+/* 4 */
+div.immagine-post-4 {
+	width: 100%;
+	height: 200px;
+	background: url(../../immagini/post/bounty-scandal/bounty-suspension.jpg) no-repeat;
+	background-size: cover;
+	background-position: center;
+	-webkit-filter: grayscale(0.5);
+	-webkit-transition: all 0.2s linear 0.1s;
+    transition: all 0.2s linear 0.1s;
+    opacity: 0.85
+}
+
+.blog-post:hover div.immagine-post-4 {
+	-webkit-filter: grayscale(0);
+	opacity: 1
+}
+
+/* 3 */
+div.immagine-post-3 {
+	width: 100%;
+	height: 200px;
+	background: url(../../immagini/post/draft-2015/immagine-post.jpg) no-repeat;
+	background-size: cover;
+	background-position: center;
+	-webkit-filter: grayscale(0.5);
+	-webkit-transition: all 0.2s linear 0.1s;
+    transition: all 0.2s linear 0.1s;
+    opacity: 0.85
+}
+
+.blog-post:hover div.immagine-post-3 {
+	-webkit-filter: grayscale(0);
+	opacity: 1
+}
+
+/* 2 */
+div.immagine-post-2 {
+	width: 100%;
+	height: 200px;
+	background: url(../../immagini/post/rivoluzione-7-giorni/Payton-Loomis.jpg) no-repeat;
+	background-size: cover;
+	background-position: center;
+	-webkit-filter: grayscale(0.5);
+	-webkit-transition: all 0.2s linear 0.1s;
+    transition: all 0.2s linear 0.1s;
+    opacity: 0.85
+}
+
+.blog-post:hover div.immagine-post-2 {
+	-webkit-filter: grayscale(0);
+	opacity: 1
+}
+
+/* 1 */
+div.immagine-post-1 {
+	width: 100%;
+	height: 200px;
+	background: url(../../immagini/post/trade-jimmy-graham/Graham.gif) no-repeat;
+	background-size: cover;
+	background-position: center;
+	-webkit-filter: grayscale(0.5);
+	-webkit-transition: all 0.2s linear 0.1s;
+    transition: all 0.2s linear 0.1s;
+    opacity: 0.85
+}
+
+.blog-post:hover div.immagine-post-1 {
+	-webkit-filter: grayscale(0);
+	opacity: 1
+}
+
+/* SOTTO 992px */
+@media (max-width: 991px) {
+	div.immagine-post-7 {
+		-webkit-filter: grayscale(0);
+		opacity: 1;
+	}
+
+	div.immagine-post-6 {
+		-webkit-filter: grayscale(0);
+		opacity: 1;
+	}
+
+	div.immagine-post-5 {
+		-webkit-filter: grayscale(0);
+		opacity: 1;
+	}
+
+	div.immagine-post-4 {
+		-webkit-filter: grayscale(0);
+		opacity: 1;
+	}
+
+	div.immagine-post-3 {
+		-webkit-filter: grayscale(0);
+		opacity: 1;
+	}
+
+	div.immagine-post-2 {
+		-webkit-filter: grayscale(0);
+		opacity: 1;
+	}
+
+	div.immagine-post-1 {
+		-webkit-filter: grayscale(0);
+		opacity: 1;
+	}
+}
+
+/* SOTTO 768px */
+@media (max-width: 767px) {
+	div.immagine-post-7 {
+		height: 130px;
+	}
+
+	div.immagine-post-6 {
+		height: 130px;
+	}
+
+	div.immagine-post-5 {
+		height: 130px;
+	}
+
+	div.immagine-post-4 {
+		height: 130px;
+	}
+
+	div.immagine-post-3 {
+		height: 130px;
+	}
+
+	div.immagine-post-2 {
+		height: 130px;
+	}
+
+	div.immagine-post-1 {
+		height: 130px;
+	}
+}
+
+
+/* SOTTO 414px */
+@media (max-width: 413px) {
+	div.immagine-post-7 {
+		height: 100px;
+	}
+
+	div.immagine-post-6 {
+		height: 100px;
+	}
+
+	div.immagine-post-5 {
+		height: 100px;
+	}
+
+	div.immagine-post-4 {
+		height: 100px;
+	}
+
+	div.immagine-post-3 {
+		height: 100px;
+	}
+
+	div.immagine-post-2 {
+		height: 100px;
+	}
+
+	div.immagine-post-1 {
+		height: 100px;
+	}
+}
+
+
