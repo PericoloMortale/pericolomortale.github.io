@@ -1,0 +1,8 @@
+.blog-post {
+	margin-left: 20px;
+	margin-right: 20px;
+}
+
+.titolo-autore-data-commenti p, p .autore-data-commenti {
+	margin-bottom: 0
+}
