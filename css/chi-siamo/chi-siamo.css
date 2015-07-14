@@ -50,6 +50,28 @@
 	font-size: 20px
 }
 
+.offset:before {
+  display: block;
+  content: " ";
+  height: 50px;
+  margin-top: -50px;
+  visibility: hidden;
+}
+
+
+/* SOTTO 1200px */
+@media (max-width: 1199px) {
+
+	.offset:before {
+		display: block;
+		content: " ";
+		height: 40px;
+		margin-top: -40px;
+		visibility: hidden;
+	}
+}
+
+
 /* SOTTO 992px */
 @media (max-width: 991px) {
 
@@ -75,6 +97,17 @@
 		font-size: 19px
 	}
 
+	.offset:before {
+		display: block;
+		content: " ";
+		height: 10px;
+		margin-top: -10px;
+		visibility: hidden;
+	}
+
+
+
+
 }
 
 
@@ -97,6 +130,8 @@
 	.chi-siamo img {
 		height: 80px
 	}
+
+
 }
 
 

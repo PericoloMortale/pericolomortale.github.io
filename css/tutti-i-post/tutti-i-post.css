@@ -28,7 +28,9 @@ div.mese {
 	margin-right: 100px;
 	padding: 20px 30px 20px 30px;
 	vertical-align: middle;
-	margin-bottom: 10px
+	margin-bottom: 10px;
+	-webkit-transition: all 0.05s linear 0.1s;
+    transition: all 0.05s linear 0.1s;
 }
 
 .titolo-autore-data-commenti h1 {
