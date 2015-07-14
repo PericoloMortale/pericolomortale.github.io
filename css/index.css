@@ -1,6 +1,7 @@
 body {
 	font-family: 'Raleway', sans-serif;
 	font-weight: 300;
+	background-color: #b4a76c
 }
 
 header {
@@ -109,7 +110,8 @@ header {
 	font-size: 25px;
 	margin: 40px 0 40px 0;
 	font-family: 'Exo', sans-serif;
-	letter-spacing: 10px
+	letter-spacing: 10px;
+	font-weight: 200
 }
 
 .area-post .container{

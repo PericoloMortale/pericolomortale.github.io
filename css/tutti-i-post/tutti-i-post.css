@@ -1,8 +1,116 @@
-.blog-post {
-	margin-left: 20px;
-	margin-right: 20px;
+.area-post .container {
+	min-height: 1100px;
 }
+
+.area-post .container {
+	text-align: right;
+}
+
+div.mese {
+	margin-bottom: 50px
+}
+
+.container div.mese:nth-child(2n+1) {
+	text-align: left;
+}
+
+.quale-mese {
+	text-align: center;
+	font-family: 'Exo', sans-serif;
+	text-transform: uppercase;
+	font-weight: 100;
+	font-size: 25px;
+}
+
+
+.blog-post {
+	margin-left: 100px;
+	margin-right: 100px;
+	padding: 20px 30px 20px 30px;
+	vertical-align: middle;
+	margin-bottom: 10px
+}
+
+.titolo-autore-data-commenti h1 {
+	font-size: 28px;
+}
+
 
 .titolo-autore-data-commenti p, p .autore-data-commenti {
 	margin-bottom: 0
+}
+
+footer {
+	bottom: 0
+}
+
+.helper {
+    height: 100%;
+    vertical-align: middle;
+}
+
+/* SOTTO 992px */
+@media (max-width: 991px) {
+
+	.container div.mese:nth-child(1n+1) {
+		text-align: center;
+	}
+
+	.blog-post {
+		margin-left: 50px;
+		margin-right: 50px;
+		padding: 20px 30px 20px 30px;
+		vertical-align: middle;
+		margin-bottom: 10px
+	}
+
+	.titolo-autore-data-commenti h1 {
+		font-size: 23px;
+	}
+
+}
+
+/* SOTTO 768px */
+@media (max-width: 767px) {
+
+	.blog-post {
+		margin-left: 20px;
+		margin-right: 20px;
+		padding: 15px 20px 15px 20px;
+		vertical-align: middle;
+		margin-bottom: 10px
+	}
+
+	div.mese {
+		margin-bottom: 30px
+	}
+
+
+}
+
+/* SOTTO 536px */
+@media (max-width: 535px) {
+
+	div.mese {
+		margin-bottom: 20px
+	}
+
+	.titolo-autore-data-commenti h1 {
+		font-size: 20px;
+	}
+
+	.titolo-autore-data-commenti p, p .autore-data-commenti {
+		font-size: 15px;
+	}
+
+
+}
+
+
+/* SOTTO 414px fino a 321px*/
+@media (max-width: 413px) {
+
+	.titolo-autore-data-commenti p, p .autore-data-commenti {
+		font-size: 13px;
+	}
 }
