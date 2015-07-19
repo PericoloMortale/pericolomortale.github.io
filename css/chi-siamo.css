@@ -1,4 +1,9 @@
 
+.blog-header h1{
+	margin-bottom: 0
+}
+
+
 .chi-siamo {
 	text-align: center;
 	background: rgba(255, 255, 255, 0.8);
@@ -47,7 +52,8 @@
 .chi-siamo h3 {
 	font-family: 'Exo', sans-serif;
 	letter-spacing: 8px;
-	font-size: 20px
+	font-size: 20px;
+	font-weight: 200
 }
 
 .offset:before {
