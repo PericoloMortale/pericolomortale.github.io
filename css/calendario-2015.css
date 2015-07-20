@@ -7,6 +7,8 @@
 img.nfl {
 	height: 200px;
 	-webkit-filter: drop-shadow(5px 5px 5px rgba(0,0,0,0.3));
+	-webkit-transition: all 0.1s linear 0.1s;
+    transition: all 0.1s linear 0.1s;
 }
 
 .blog-header h1.season {
@@ -106,3 +108,82 @@ img.nfl {
 .col-md-3:hover .casa img, .col-md-3:hover .bye-week img, .col-md-3:hover .fuori-casa img {
 	transform: scale3d(1.1,1.1,1);
 }
+
+/* SOTTO 992px */
+@media (max-width: 991px) {
+
+	img.nfl {
+		height: 170px;
+	}
+
+}
+
+/* SOTTO 768px */
+@media (max-width: 767px) {
+
+	.col-md-3:hover {
+		transform: none;
+	}
+
+	.prossima-partita {
+		transform: scale3d(1.12,1.12,1);
+	}
+
+}
+
+/* SOTTO 536px */
+@media (max-width: 535px) {
+
+	img.nfl {
+		height: 130px;
+	}
+
+
+	.col-md-3 h4 {
+		font-size: 20px;
+	}
+
+
+	.col-md-3 .casa img, .col-md-3 .bye-week img, .col-md-3 .fuori-casa img {
+		width: auto;
+		max-height: 40%
+	}
+
+	.area-post .container .row div {
+		height: 200px;
+		text-align: center;
+	}
+
+	.giornata {
+		padding: 5px
+	}
+
+
+}
+
+/* SOTTO 414px fino a 321px*/
+@media (max-width: 413px) {
+
+	img.nfl {
+		height: 100px;
+	}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
