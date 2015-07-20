@@ -1,6 +1,17 @@
 .area-post {
 	font-family: 'Exo', sans-serif;
 	background-image: none;
+	text-align: center;
+}
+
+img.nfl {
+	height: 200px;
+	-webkit-filter: drop-shadow(5px 5px 5px rgba(0,0,0,0.3));
+}
+
+.blog-header h1.season {
+	margin-bottom: 20px;
+	font-size: 30px
 }
 
 .area-post .container .row div {
@@ -9,7 +20,7 @@
 }
 
 .area-post .row {
-	margin: 20px 20px 50px 20px;
+	margin: 0px 20px 50px 20px;
 }
 
 
@@ -35,37 +46,63 @@
 
 .casa {
 	background: url(../immagini/calendario-2015/superdome.png) no-repeat center center;
-	background-size: cover
+	background-size: cover;
+	-webkit-filter: grayscale(1);
+	-webkit-transition: all 0.1s linear 0.1s;
+    transition: all 0.1s linear 0.1s;
 }
 
 .bye-week {
 	background: url(../immagini/calendario-2015/brees-dorme.png) no-repeat center center;
-	background-size: cover
+	background-size: cover;
+	-webkit-filter: grayscale(1);
+	-webkit-transition: all 0.1s linear 0.1s;
+    transition: all 0.1s linear 0.1s;
 }
 
 .fuori-casa {
 	background: url(../immagini/calendario-2015/fuori-casa.png) no-repeat center center;
-	background-size: cover
+	background-size: cover;
+	-webkit-filter: grayscale(1);
+	-webkit-transition: all 0.1s linear 0.1s;
+    transition: all 0.1s linear 0.1s;
 }
 
 .col-md-3 h4 {
 	font-size: 25px;
 	font-weight: 500;
 	color: #111;
-	text-shadow: -2px -2px 0 white, -2px -1px 0 white, -2px 0px 0 white, -2px 1px 0 white, -2px 2px 0 white, -1px -2px 0 white, -1px -1px 0 white, -1px 0px 0 white, -1px 1px 0 white, -1px 2px 0 white, 0px -2px 0 white, 0px -1px 0 white, 0px 0px 0 white, 0px 1px 0 white, 0px 2px 0 white, 1px -2px 0 white, 1px -1px 0 white, 1px 0px 0 white, 1px 1px 0 white, 1px 2px 0 white, 2px -2px 0 white, 2px -1px 0 white, 2px 0px 0 white, 2px 1px 0 white, 2px 2px 0 white;
+	text-shadow: -1px -1px 0 white, -1px -0.5px 0 white, -1px 0px 0 white, -1px 0.5px 0 white, -1px 1px 0 white, -0.5px -1px 0 white, -0.5px -0.5px 0 white, -0.5px 0px 0 white, -0.5px 0.5px 0 white, -0.5px 1px 0 white, 0px -1px 0 white, 0px -0.5px 0 white, 0px 0px 0 white, 0px 0.5px 0 white, 0px 1px 0 white, 0.5px -1px 0 white, 0.5px -0.5px 0 white, 0.5px 0px 0 white, 0.5px 0.5px 0 white, 0.5px 1px 0 white, 1px -1px 0 white, 1px -0.5px 0 white, 1px 0px 0 white, 1px 0.5px 0 white, 1px 1px 0 white;
 }
 
+.col-md-3:hover .casa {
+	-webkit-filter: grayscale(0)
+}
 
-.col-md-3 img {
+.col-md-3:hover .bye-week {
+	-webkit-filter: grayscale(0)
+}
+
+.col-md-3:hover .fuori-casa {
+	-webkit-filter: grayscale(0)
+}
+
+.prossima-partita {
+	-webkit-filter: grayscale(0);
+	z-index: 5;
+}
+
+.prossima-partita img {
+	-webkit-filter: grayscale(0) opacity(1);
+}
+
+.col-md-3 .casa img, .col-md-3 .bye-week img, .col-md-3 .fuori-casa img {
 	max-width: 95%;
 	margin-bottom: 5px;
 	margin-top: 5px;
 	-webkit-transition: all 0.1s linear 0.1s;
     transition: all 0.1s linear 0.1s;
-	-webkit-filter: grayscale(0.1) opacity(0.9);
 }
-
-.col-md-3:hover img {
+.col-md-3:hover .casa img, .col-md-3:hover .bye-week img, .col-md-3:hover .fuori-casa img {
 	transform: scale3d(1.1,1.1,1);
-	-webkit-filter: grayscale(0) opacity(1);
 }

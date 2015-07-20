@@ -1,0 +1,103 @@
+/* PROSSIMA PARTITA */
+
+.prossima-partita {
+	height: auto;
+	font-family: 'Exo', sans-serif;
+	font-weight: 600;
+	color: #111;
+	text-shadow: -1px -1px 0 white, -1px -0.5px 0 white, -1px 0px 0 white, -1px 0.5px 0 white, -1px 1px 0 white, -0.5px -1px 0 white, -0.5px -0.5px 0 white, -0.5px 0px 0 white, -0.5px 0.5px 0 white, -0.5px 1px 0 white, 0px -1px 0 white, 0px -0.5px 0 white, 0px 0px 0 white, 0px 0.5px 0 white, 0px 1px 0 white, 0.5px -1px 0 white, 0.5px -0.5px 0 white, 0.5px 0px 0 white, 0.5px 0.5px 0 white, 0.5px 1px 0 white, 1px -1px 0 white, 1px -0.5px 0 white, 1px 0px 0 white, 1px 0.5px 0 white, 1px 1px 0 white;
+	padding: 10px;
+	margin-top: 25px;
+	box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.2);
+	-webkit-filter: grayscale(0.6);
+	-webkit-transition: all 0.2s linear 0.1s;
+    transition: all 0.2s linear 0.1s;
+}
+
+.prossima-partita:hover {
+	-webkit-filter: grayscale(0)
+}
+
+a#link-prossima-partita:hover {
+	text-decoration: none
+}
+
+.prossima-partita h4 {
+	font-size: 25px
+}
+
+.prossima-partita img {
+	width: 80%;
+	margin-top: 5px;
+	-webkit-transition: all 0.1s linear 0.1s;
+    transition: all 0.1s linear 0.1s;
+}
+
+.prossima-partita:hover img {
+	transform: scale3d(1.05,1.05,1);
+}
+
+.casa {
+	background: url(../../immagini/calendario-2015/superdome.png) no-repeat center center;
+	background-size: cover;
+	-webkit-transition: all 0.1s linear 0.1s;
+    transition: all 0.1s linear 0.1s;
+}
+
+.bye-week {
+	background: url(../../immagini/calendario-2015/brees-dorme.png) no-repeat center center;
+	background-size: cover;
+	-webkit-transition: all 0.1s linear 0.1s;
+    transition: all 0.1s linear 0.1s;
+}
+
+.fuori-casa {
+	background: url(../../immagini/calendario-2015/fuori-casa.png) no-repeat center center;
+	background-size: cover;
+	-webkit-transition: all 0.1s linear 0.1s;
+    transition: all 0.1s linear 0.1s;
+}
+
+/* SOTTO 992px */
+@media (max-width: 991px) {
+
+	.prossima-partita {
+		width: 50%;
+		margin-left: 25%
+	}
+
+	.prossima-partita {
+	-webkit-filter: grayscale(0);
+}
+
+	.prossima-partita:hover img {
+		transform: none;
+	}
+
+}
+
+/* SOTTO 768px */
+@media (max-width: 767px) {
+
+	.prossima-partita {
+		width: 54%;
+		margin-left: 23%
+	}
+}
+
+/* SOTTO 536px */
+@media (max-width: 535px) {
+
+	.prossima-partita {
+		width: 70%;
+		margin-left: 15%
+	}
+}
+
+/* SOTTO 414px fino a 321px*/
+@media (max-width: 413px) {
+	.prossima-partita {
+		width: 80%;
+		margin-left: 10%
+	}
+}
