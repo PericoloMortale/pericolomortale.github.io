@@ -220,10 +220,6 @@ div.cambio-pagina {
 	color: white;
 }
 
-.cambio-pagina a.pagina-precendente {
-
-}
-
 .cambio-pagina a.pagina-successiva {
 	float: left;
 	margin-left: 10px
@@ -440,6 +436,11 @@ footer.blog-footer p:nth-child(2) {
 		font-size: 15px
 	}
 
+	.cambio-pagina a {
+		font-size: 15px;
+		font-weight: 300;
+	}
+
 	footer.blog-footer p:first-child {
 		font-size: 7px;
 		line-height: 8px;
@@ -497,6 +498,11 @@ footer.blog-footer p:nth-child(2) {
 
 	br.nascosto {
 	display: inherit;
+	}
+
+	.cambio-pagina a {
+		font-size: 13px;
+		font-weight: 400;
 	}
 
 	footer.blog-footer {
