@@ -1,0 +1,158 @@
+#titolo-secondario {
+	font-size: 25px;
+	font-weight: 500;
+	font-family: 'Exo', sans-serif;
+	margin-top: 25px;
+	text-transform: uppercase;
+}
+
+a.btn.btn-default.btn-post {
+	margin-top: 5px
+}
+
+.btn-post {
+	width: 100%;
+	background-color: #ddd;
+	border: none;
+}
+
+.btn-post:hover {
+	width: 100%;
+	background-color: #ccc;
+	box-shadow: inset 0 3px 5px rgba(0,0,0,.3);
+}
+
+
+.btn-post p {
+	text-align: center;
+}
+
+p#p2 {
+	font-size: 20px;
+	margin-bottom: 0
+}
+
+.modal-dialog {
+	width: 75%;
+	margin: 60px auto;
+	text-align: justify;
+}
+
+.modal-body p {
+	font-style: italic
+}
+
+div.immagine-post-aggiunta-1 {
+	width: 100%;
+	height: 200px;
+	background: url(../../immagini/post/bounty-scandal/goodell.jpg) no-repeat;
+	background-size: cover;
+	background-position: top;
+
+}
+
+.modal-header .close {
+	margin-left: 5px
+}
+
+/* SOTTO 1200px */
+@media (max-width: 1199px) {
+
+	.modal-dialog {
+		width: 85%
+	}
+
+	.modal-body p {
+		font-size: 12px
+	}
+
+}
+
+@media (max-width: 991px) {
+	p#p2 {
+	  font-size: 18px;
+	}
+
+	.modal-dialog {
+		width: 90%;
+		margin: 10px auto;
+	}
+
+}
+
+@media (max-width: 767px) {
+
+	#titolo-secondario {
+		font-size: 20px;
+	}
+
+	p#p2 {
+	  font-size: 15px;
+	}
+
+	.modal-header {
+		padding: 10px 10px 5px 10px
+	}
+
+	h4#myModalLabel {
+		font-size: 15px
+	}
+
+	.modal-body p {
+		font-size: 10px
+	}
+
+	.modal-body {
+		padding: 5px 10px 5px 10px
+	}
+
+	button.close {
+		font-size: 15px
+	}
+
+}
+
+/* SOTTO 536px */
+@media (max-width: 535px) {
+
+	#titolo-secondario {
+		font-size: 17px;
+	}
+
+	.modal-header {
+		padding: 10px 10px 5px 10px
+	}
+
+	h4#myModalLabel {
+		font-size: 12px
+	}
+
+	.modal-body p {
+		font-size: 10px
+	}
+
+	.modal-dialog {
+		width: 95%;
+		margin: 5px auto;
+	}
+
+	.modal-body {
+		padding: 5px 10px 5px 10px
+	}
+
+	button.close {
+		font-size: 13px
+	}
+
+}
+
+@media (max-width: 413px) {
+
+	p#p2 {
+	  font-size: 13px;
+	}
+
+	p#p2 {
+	  font-size: 12px;
+	}
+}

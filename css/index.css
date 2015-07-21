@@ -362,6 +362,10 @@ footer.blog-footer p:nth-child(2) {
 		padding-right: 15px
 	}
 
+	.cambio-pagina a.pagina-successiva {
+		margin-left: 0px
+	}
+
 	.rimozione-timeline{
 		display: none;
 	}
