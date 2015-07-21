@@ -1,0 +1,63 @@
+#titolo-secondario {
+	font-family: 'Exo', sans-serif;
+	margin-bottom: 0;
+	font-weight: 300
+}
+
+#sottotitolo-secondario {
+	font-family: 'Exo', sans-serif;
+	font-weight: 300;
+	margin-top: 10px;
+	color: #b4a76c;
+}
+
+#voto {
+	font-size: 24px;
+	margin-top: 15px;
+	margin-bottom: 15px
+}
+
+
+/* SOTTO 992px */
+@media (max-width: 991px) {
+
+
+}
+
+/* SOTTO 768px */
+@media (max-width: 767px) {
+
+	#titolo-secondario {
+		font-size: 22px;
+		font-weight: 400
+	}
+
+	#sottotitolo-secondario {
+		font-weight: 300;
+		font-size: 21px;
+	}
+
+	#voto {
+		font-size: 22px
+	}
+}
+
+/* SOTTO 536px */
+@media (max-width: 535px) {
+
+	#sottotitolo-secondario {
+		font-weight: 300;
+		font-size: 19px;
+	}
+
+	#voto {
+		font-size: 20px
+	}
+
+}
+
+/* SOTTO 414px fino a 321px*/
+@media (max-width: 413px) {
+
+
+}

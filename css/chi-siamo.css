@@ -42,11 +42,12 @@
 	-webkit-filter: grayscale(0.5);
 	-webkit-transition: all 0.1s linear 0.1s;
     transition: all 0.1s linear 0.1s;
-    margin-top: 15px
+    margin: 15px 5px 0 5px;
 }
 
 .chi-siamo img:hover {
 	-webkit-filter: grayscale(0);
+	transform: scale3d(1.1,1.1,1);
 }
 
 .chi-siamo h3 {
@@ -96,6 +97,10 @@
 	    transition: all 0.1s linear 0.1s;
 	    margin-top: 5px
 	}
+
+	.chi-siamo img:hover {
+	transform: none;
+}
 
 	.chi-siamo h3 {
 		font-family: 'Exo', sans-serif;
