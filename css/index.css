@@ -459,6 +459,11 @@ footer.blog-footer p:nth-child(2) {
 /* SOTTO 536px */
 @media (max-width: 535px) {
 
+	.navbar-grande {
+		background-image: url(../immagini/homepage/copertina-piccola.png);
+	}
+
+
 	.navbar-nav {
 		padding-top: 6px
 	}
