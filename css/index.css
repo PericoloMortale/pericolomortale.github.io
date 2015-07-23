@@ -510,6 +510,10 @@ footer.blog-footer p:nth-child(2) {
 	display: inherit;
 	}
 
+	div.cambio-pagina {
+	    height: 35px;
+	}
+
 	.cambio-pagina a {
 		font-size: 13px;
 		font-weight: 400;
